@@ -1,0 +1,55 @@
+---
+layout: default
+---
+{% comment %}
+NOTE: This has to be HTML for the paginator to work
+{% endcomment %}
+
+<h2> Blog Posts</h2>
+
+{% for post in paginator.posts %}
+<div class="{% if forloop.last == false %}post-devide-bottom{% endif %}">
+    <h3><a href="{{ post.url }}">{{ post.title }}</a><br/>
+        <small>
+            <span class="date"><i class="fa fa-calendar">&nbsp;</i>{{ post.date | date: "%d %B %Y" }}</span>
+            {% if post.tags.size > 0 %}
+            <span> | </span>
+            {% if post.tags.size > 1 %}
+            <span class="tags"><i class="fa fa-tags">&nbsp;</i>{{ post.tags | join: ', ' }}</span>
+            {% else %}
+            <span class="tags"><i class="fa fa-tag">&nbsp;</i>{{ post.tags }}</span>
+            {% endif %}
+            {% endif %}
+            {% if post.comments %}
+            <span> | </span>
+            <span class="comments"><i class="fa fa-comment">&nbsp;</i><a href="{{ post.url }}#disqus_thread">View Comments</a></span>
+            {% endif %}
+        </small>
+    </h3>
+    {{ post.content }}
+</div>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<nav>
+    <ul class="pagination">
+        <li class="{% if paginator.previous_page %}{% else %}disabled{% endif %}">
+            <a href="{{ paginator.previous_page_path }}">&laquo;</a>
+        </li>
+        {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+        <li class="active"><a href="#">{{ page }}</a></li>
+        {% elsif page == 1 %}
+        <li><a href="/blog">{{ page }}</a></li>
+        {% else %}
+        <li><a href="{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a></li>
+        {% endif %}
+        {% endfor %}
+        <li class="{% if paginator.next_page %}{% else %}disabled{% endif %}">
+            <a href="{{ paginator.next_page_path }}">&raquo;</a>
+        </li>
+    </ul>
+</nav>
+{% endif %}
+
+<script id="dsq-count-scr" src="https://blythmeister.disqus.com/count.js" async></script>
