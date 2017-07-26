@@ -70,46 +70,6 @@ body {
             padding-bottom: 10px;
         }
 
-        .sidebar .aboutme .fa {
-            padding: 5px;
-            font-size: 20px;
-            width: 30px;
-            height: 30px;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 50%;
-        }
-
-            /* Add a hover effect if you want */
-            .sidebar .aboutme .fa:hover {
-                opacity: 0.7;
-            }
-
-        .sidebar .aboutme .fa-twitter {
-            background: #55ACEE;
-            color: #FFFFFF;
-        }
-
-        .sidebar .aboutme .fa-linkedin {
-            background: #007BB5;
-            color: #FFFFFF;
-        }
-
-        .sidebar .aboutme .fa-github {
-            background: #000000;
-            color: #FFFFFF;
-        }
-
-        .sidebar .aboutme .fa-google-plus {
-            background: #DB4437;
-            color: #FFFFFF;
-        }
-
-        .sidebar .aboutme .fa-spotify {
-            background: #000000;
-            color: #1ED760;
-        }
-
     .sidebar .recentPosts {
         border-top: 1px solid grey;
     }
@@ -126,6 +86,51 @@ body {
 .post-devide-bottom {
     border-bottom: 1px solid grey;
 }
+
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+    /* Add a hover effect if you want */
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa.fa-twitter {
+        background: #55ACEE;
+        color: #FFFFFF;
+    }
+
+    .fa.fa-linkedin {
+        background: #007BB5;
+        color: #FFFFFF;
+    }
+
+    .fa.fa-github {
+        background: #000000;
+        color: #FFFFFF;
+    }
+
+    .fa.fa-google-plus {
+        background: #DB4437;
+        color: #FFFFFF;
+    }
+
+    .fa.fa-spotify {
+        background: #000000;
+        color: #1ED760;
+    }
+
+    .fa.fa-rss {
+        background: #FF6600;
+        color: #000000;
+    }
 
 @media (min-width:991px) {
     .mainFrame {
