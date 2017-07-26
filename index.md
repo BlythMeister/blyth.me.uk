@@ -1,11 +1,8 @@
 ---
 layout: default
-title: Hi, my name is Chris
 ---
 
-## Welcome!
-
-Hi, my name is Chris.
+## Hi, my name is Chris.
 
 This site is my virtual notepad for ideas, ramblings, my creations and my learnings.
 

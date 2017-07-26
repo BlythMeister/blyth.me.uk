@@ -88,8 +88,8 @@ body {
 }
 
 .fa {
-    padding: 5px;
-    font-size: 20px;
+    padding-top: 86px;
+    font-size: 17px;
     width: 30px;
     height: 30px;
     text-align: center;
@@ -129,7 +129,7 @@ body {
 
     .fa.fa-rss {
         background: #FF6600;
-        color: #000000;
+        color: #FFFFFF;
     }
 
 @media (min-width:991px) {
