@@ -1,9 +1,12 @@
 ---
 layout: default
 title: About Me
+image: /images/me.png
 ---
 
 ## About Me
+
+### My Career
 
 I am the Build & Deployment manager at 15below having worked my way through different roles in the company.
 
@@ -13,8 +16,15 @@ I am now the owner of the build and deployment process in the company liaising w
 
 I've had the pleasure of working with many exciting people in the travel industry as well as within the IT industry due to the nature of my work at 15below.
 
+### Love Of Coding
+
 My love of coding has lead me to create a few open source code projects which can be found on my GitHub. These include the bing background image downloader (for desktop wallpapers), the secret santa helper/emailer & my latest and most popular app called Gallifrey.
 
 Gallifrey is an helper for the Atlassian Jira product where you can use an array of stopwatches to time how long tasks take, then export this as a time sheet into Jira. Gallifrey is used by many people across 4 continents, and I'm very proud of this achievement. The product continues to grow and gain downloads on the Atlassian marketplace.
 
-I am an avid Brighton & Hove Albion supporter and have been since i was 5.
+### Personal Life
+
+I am an avid Brighton & Hove Albion supporter and have been since I was 5.
+
+This means I was around in the "war years" seeing the last season and a half at the Goldstone Ground, travlling to Gillingham for the 2 seasons in exhile.
+The 12 years at the Withdean and now the amazing American Express community stadium.

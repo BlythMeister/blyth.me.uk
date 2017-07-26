@@ -1,9 +1,10 @@
 ---
 layout: default
-title: My Apps/Software
+title: My Apps & Software
+image: /images/me.png
 ---
 
-## My Apps/Software
+## My Apps & Software
 
 I have a few open source software projects, this is where i catalog them all.
 
