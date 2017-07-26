@@ -34,15 +34,15 @@
                         <p>
                             {{ content }}
                         </p>
-                        <p>
+                        <p class="devide-top">
                             <div class="addthis_inline_share_toolbox"></div>
                         </p>
-                        <p>
-                            {% if post.comments %}
+                        {% if post.comments %}
+                        <p class="devide-top">
                             <div id="disqus_thread"></div>
                             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                            {% endif %}
                         </p>
+                        {% endif %}
                         <p>
                             <div class="pull-left">
                                 {% if post.previous.url %}
