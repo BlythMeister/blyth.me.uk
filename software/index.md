@@ -1,5 +1,6 @@
 ---
 layout: default
+title: My Apps/Software
 ---
 
 ## My Apps/Software

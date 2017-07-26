@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Research Links
 ---
 
 ## Reading Links
