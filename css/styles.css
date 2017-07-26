@@ -72,6 +72,7 @@ body {
 
     .sidebar .recentPosts {
         border-top: 1px solid grey;
+        padding-bottom: 10px
     }
 
         .sidebar .recentPosts .media-underline {
@@ -80,7 +81,7 @@ body {
 
     .sidebar .myTweets {
         border-top: 1px solid grey;
-        padding-top: 5px;
+        padding-top: 10px;
     }
 
 .post-devide-bottom {
@@ -99,7 +100,7 @@ body {
 }
 
     /* Add a hover effect if you want */
-    .fa:hover {
+    a.fa:hover {
         opacity: 0.7;
         text-decoration: none;
     }
