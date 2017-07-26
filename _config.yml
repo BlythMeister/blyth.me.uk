@@ -1,9 +1,42 @@
+#Basic Settings
+title: Chris Blyth
+description: "My virtual notepad for ideas, ramblings, my creations and my learnings."
 url: https://www.blyth.me.uk
+author: BlythMeister
+logo: /images/me.png
+lang: en_GB
 
+#Webmaster tools
+webmaster_verifications:
+  google: HV11HFJBxWBjSBdvj2X1ARYcyV0gkh2RC2RN-BBPOQc
+  #bing: 1234
+
+#Social
+twitter:
+    username: BlythMeister
+
+#facebook:
+#   app_id: [a Facebook app ID for Facebook insights]
+#   publisher: [a Facebook page URL or ID of the publishing entity]
+#   admins: [a Facebook user ID for domain insights linked to a personal account]
+
+social:
+    name: Chris Blyth
+    links:
+        - https://www.twitter.com/BlythMeister
+        - https://www.linkedin.com/in/chris-blyth/
+        - https://github.com/BlythMeister
+        - https://plus.google.com/+ChrisBlyth-BlythMeister
+        - https://open.spotify.com/user/BlythMeister
+
+#Link format
 permalink: pretty
+
+#Pagination
 paginate: 5
 paginate_path: "/blog/page:num"
 
+#Gems
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap

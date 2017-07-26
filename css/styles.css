@@ -100,6 +100,11 @@ body {
             color: #FFFFFF;
         }
 
+        .sidebar .aboutme .fa-google-plus {
+            background: #DB4437;
+            color: #FFFFFF;
+        }
+
         .sidebar .aboutme .fa-spotify {
             background: #000000;
             color: #1ED760;
