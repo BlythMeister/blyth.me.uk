@@ -19,4 +19,8 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 
+{% capture seo %}
 {% seo %}
+{% endcapture %}
+
+{{ seo | replace: "summary_large_image", "summary" }}
