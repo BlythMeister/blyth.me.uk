@@ -17,7 +17,7 @@
     </div>
 </div>
 <div class="col-lg-12 recentPosts">
-    <h4><a href="{{ site.url }}/feed.xml" class="fa fa-rss"></a> Recent Posts</h4>
+    <h4>Recent Posts <a href="{{ site.url }}/feed.xml" class="fa fa-rss"></a></h4>
     {% for post in site.posts limit:3 %}
     <div class="media {% if forloop.last == false %}media-underline{% endif %}">
         <div class="media-body">

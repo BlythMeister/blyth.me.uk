@@ -6,7 +6,7 @@ title: Blog Posts
 NOTE: This has to be HTML for the paginator to work
 {% endcomment %}
 
-<h2><a href="{{ site.url }}/feed.xml" class="fa fa-rss"></a> Blog Posts</h2>
+<h2>Blog Posts <a href="{{ site.url }}/feed.xml" class="fa fa-rss"></a></h2>
 
 {% for post in paginator.posts %}
 <div class="{% if forloop.last == false %}post-devide-bottom{% endif %}">
