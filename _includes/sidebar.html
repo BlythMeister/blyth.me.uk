@@ -18,7 +18,7 @@
 </div>
 <div class="col-lg-12 recentPosts">
     <h4>Recent Posts</h4>
-    {% for post in site.posts limit:4 %}
+    {% for post in site.posts limit:3 %}
     <div class="media {% if forloop.last == false %}media-underline{% endif %}">
         <div class="media-body">
             <a href="{{ post.url }}">
@@ -29,4 +29,8 @@
         </div>
     </div>
     {% endfor %}
+</div>
+<div class="col-lg-12">
+    <a class="twitter-timeline" data-width="260" data-height="400" data-dnt="true" data-link-color="#337ab7" href="https://twitter.com/BlythMeister">Tweets by BlythMeister</a>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
