@@ -15,24 +15,9 @@
 <!-- Latest compiled and minified Bootstrap JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- Twitter Widget -->
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<!-- Disqus Count -->
-<script id="dsq-count-scr" src="https://blythmeister.disqus.com/count.js" async></script>
-<!-- Disqus thread -->
-<script>
-    var disqus_config = function() {
-        this.page.url = '{{ site.url }}{{ post.url }}';
-        this.page.identifier = '{{ site.url }}{{ post.url }}';
-    };
-
-    (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://blythmeister.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- Page Share -->
+<script async type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5978889407abae3a"></script> 
 {% if post.comments %}
 <!-- Disqus thread -->
 <script>
