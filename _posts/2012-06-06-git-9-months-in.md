@@ -7,6 +7,7 @@ image: /images/me.png
 tags: [git, GitHub, Source Control, SourceSafe, SubVersion]
 comments: true
 ---
+
 9 months ago I had never heard of, let alone use GIT for source code repository.
 My main exposure to repositories were Microsoft SourceSafe 6 at work and SubVersion at Uni.
 

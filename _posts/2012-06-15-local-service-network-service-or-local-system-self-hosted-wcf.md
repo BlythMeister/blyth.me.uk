@@ -7,6 +7,7 @@ image: /images/me.png
 tags: [LocalService, LocalSystem, NetworkService, Access is denied, TopShelf, WCF, Your process does not have access rights to this namespace]
 comments: true
 ---
+
 ## Overview
 Recently I experienced a bit of confusion over the users you can run a TopShelf service as, in particular one which started a WCF endpoint.
 
