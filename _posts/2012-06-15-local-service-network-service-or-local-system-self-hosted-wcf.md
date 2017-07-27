@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Local Service, Network Service Or Local System Self Hosted WCF"
+title: Local Service Network Service Or Local System Self Hosted WCF
 date: 2012-06-15 14:10:00 -0000
-excerpt: "Recently I experienced a bit of confusion over the users you can run a TopShelf service as, in particular one which started a WCF endpoint."
+excerpt: Recently I experienced a bit of confusion over the users you can run a TopShelf service as, in particular one which started a WCF endpoint.
 image: /images/me.png
 tags: [http://go.microsoft.com/fwlink/?LinkId=70353, LocalService, LocalSystem, NetworkService, System.Net.HttpListenerException: Access is denied, TopShelf, WCF, Your process does not have access rights to this namespace]
 comments: true

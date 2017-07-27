@@ -2,7 +2,7 @@
 layout: post
 title: Migrating Multiple Folders Between GIT Repositories
 date: 2017-06-07 13:25:00 -0000
-excerpt: "I recently had a situation where I needed to move parts of a GIT repository over to a new repository but wanted to keep all the history from the original repository."
+excerpt: I recently had a situation where I needed to move parts of a GIT repository over to a new repository but wanted to keep all the history from the original repository.
 image: /images/me.png
 tags: [git, GitHub, History, Migration, Move Folder]
 comments: true
