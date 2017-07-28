@@ -31,6 +31,8 @@ body {
 
     .container .row .no-float {
         display: table-cell;
+        float: none;
+        vertical-align: top;
     }
 
 .header {
