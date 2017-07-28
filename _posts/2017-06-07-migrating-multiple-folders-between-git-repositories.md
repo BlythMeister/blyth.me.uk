@@ -14,30 +14,30 @@ I recently had a situation where I needed to move parts of a GIT repository over
 
 ## The Research
 
-After a bit of searching on google and finding many resources on "the best way to do this" i ended up hitting a wall.  The overall thought patterns I found looked good, but there was no one size fits all "tutorial" for how to do this.
+After a bit of searching on google and finding many resources on "the best way to do this," I ended up hitting a wall.  The overall thought patterns I found looked good, but there was no one size fits all "tutorial" for how to do this.
 
 ## The Eureka Moment
 
-After muddling through (and deleting my local copies of the repository many times!) I finally managed to achieve what i wanted.
+After muddling through (and deleting my local copies of the repository many times!) I finally managed to achieve what I wanted.
 
 A pull request in each repository one deleting the folders with my code, and the other adding them complete with all their history (that second pull request looks very scary with a lot of commits)
 
-But how did I do it i hear you ask...well...this post aims to make this easier for everyone, so keep reading!
+But how did I do it I hear you ask...well...this post aims to make this easier for everyone, so keep reading!
 
 ## The Process
 
-The process documented below states all the git bash commands your going to need.
+The process documented below states all the git bash commands you'r going to need.
 
 Start from any folder you have on disk, we going to leave it clean at the end :)
 
-At various parts in the process you will need to modify the command to put your own variable content in.  These are show with text in brackets.
+At various parts in the process, you will need to modify the command to put your own variable content in.  These are shown with text in brackets.
 
 ### Get Your Source/From Repo
 
-To prevent screwing up any local copies of the repo you already have, i suggest a clean pull and remove remote.
+To prevent screwing up any local copies of the repo you already have, I suggest a clean pull and remove remote.
 
 ~~~ bash
-git clone (url-to-from-repo) FromRepo
+git clone (URL-to-from-repo) FromRepo
 cd FromRepo
 git remote rm origin
 ~~~
@@ -46,7 +46,7 @@ git remote rm origin
 
 Since we only want the history to contain certain folders, we can run a command to completely remove everything outside of these folders from history - essentially rewrite history with just the bits we want. - This may take some time if you have a lot of history.
 
-After this, we are done with this repo for now, so move back up to the root folder.
+After this, we are done with this repo, for now, so move back up to the root folder.
 
 ~~~ bash
 git filter-branch --index-filter 'git rm --cached -qr --ignore-unmatch -- . && git reset -q $GIT_COMMIT -- (folder-paths-space-seperated)' --prune-empty -- --all
@@ -65,12 +65,12 @@ cd ToRepo
 
 ### Linking Our Repositories
 
-Next we want to get the Source/From repo into our Destination/To repo onto a branch called "feature/RepoMigrate"
+Next, we want to get the Source/From repo into our Destination/To repo onto a branch called "feature/RepoMigrate"
 
 ~~~ bash
-git remote add fromRepo (full-path-of-from-repo)
-git pull fromRepo master
-git remote rm fromRepo
+git remote add FromRepo (full-path-of-from-repo)
+git pull FromRepo master
+git remote rm FromRepo
 git branch feature/RepoMigrate
 git reset --hard origin/master
 ~~~
@@ -116,7 +116,7 @@ git commit -a -m 'Remove migrated folder (folder-name) as moved to (new-repo)'
 
 ### Now Push & Tidy Up
 
-Your almost done! We just need to push and tidy up.
+You're almost done! We just need to push and tidy up.
 
 ~~~ bash
 git push origin feature/RepoMigrate
@@ -126,6 +126,6 @@ rm -rf FromRepo
 
 ## What Next?
 
-Well, you now have a branch in each repo called "feature/RepoMigrate" one removes the folders, and the other adds.
+Well, you now have a branch in each repo called "feature/RepoMigrate" one removes the folders and the other adds.
 
 Personally, I raised a pull request onto master for each of these (and had to make some changes to get the CI working correctly in the destination/to repo)

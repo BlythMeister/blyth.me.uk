@@ -6,14 +6,14 @@ image: /images/me.png
 
 ## My Apps & Software
 
-I have a few open source software projects, this is where i catalog them all.
+I have a few open source software projects, this is where I catalog them all.
 
-Feel free to use and contriubte to them.
+Feel free to use and contribute to them.
 
 ### Secret Santa Helper
 
 A small Christmas themed WPF app in which you enter participants in a Secret Santa.
-Add in the contents of an email and a SMTP relay you have access to (papercut should work).
+Add in the contents of an email and an SMTP relay you have access to (PaperCut should work).
 Then hit to go button. The app randomly puts participants together for gift buying.
 
 GitHub: <https://github.com/BlythMeister/SecretSantaHelper>
@@ -34,7 +34,7 @@ Download: Available in the "Releases" section
 ### Gallifrey
 
 Gallifrey is a Jira work logging companion.
-Essentially a big stop watch app, but with direct intergration to you Jira portal for logging your hours worked and remaining estimates.
+Essentially a big stop watch app, but with direct integration, to you, Jira portal for logging your hours worked and remaining estimates.
 Gallifrey will allow you to become a Jira time lord!
 
 GitHub: <https://github.com/BlythMeister/Gallifrey>

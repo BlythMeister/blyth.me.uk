@@ -9,9 +9,9 @@ comments: true
 ---
 
 ## Overview
-Recently I experienced a bit of confusion over the users you can run a TopShelf service as, in particular one which started a WCF endpoint.
+Recently I experienced a bit of confusion over the users you can run a TopShelf service as, in particular, one which started a WCF endpoint.
 
-I would get an error, with a nice stack trace, but research on the Internet didn't yield me an answer. - Once I had a solution, I thought I would share, so others don't have to spend as long as I did trying to resolve the issue.
+I would get an error, with a nice stack trace, but research on the Internet didn't yield me an answer. - Once I had a solution, I thought I would share, so others don't have to spend as long as I did try to resolve the issue.
 
 So, the error I got was this:
 
@@ -24,12 +24,12 @@ at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
 
 With a pretty long stack trace after!
 
-Now this does look like a useful error, with a link to a Microsoft post (<a href="http://go.microsoft.com/fwlink/?LinkId=70353"><code>http://go.microsoft.com/fwlink/?LinkId=70353</code></a>).  Brilliant I thought, until I found clicking the link resulted in this…
+Now, this does look like a useful error, with a link to a Microsoft post (<a href="http://go.microsoft.com/fwlink/?LinkId=70353"><code>http://go.microsoft.com/fwlink/?LinkId=70353</code></a>).  Brilliant I thought until I found clicking the link resulted in this…
 
 ![Error Loading Image]({{ site.url}}/images/posts/go-microsoft-com_link70353_notload.png){:height="103px" width="300px"}
 This was far from helpful
 
-The first thing that confused me was the url, which changed from "http://localhost:8082/MyWCFService" changed to "http://+:8082/MyWCFService/". When looking at URLs, it would seem that the "+" symbol means "Generic host", therefore it could be anything, as long as it is on this PC. The config could state "http://127.0.0.1:8082/MyWCFService/" whereby localhost and 127.0.0.1 are the same. The log file only shows the 1 value, a "+".
+The first thing that confused me was the URL, which changed from "http://localhost:8082/MyWCFService" changed to "http://+:8082/MyWCFService/". When looking at URLs, it would seem that the "+" symbol means "Generic host", therefore it could be anything, as long as it is on this PC. The config could state "http://127.0.0.1:8082/MyWCFService/" whereby localhost and 127.0.0.1 are the same. The log file only shows the 1 value, a "+".
 
 A little scout around and I was able to understand that the user I was running my service under didn’t have sufficient permissions, and I should run as a more elevated “Administrator” user, sure enough, setting my windows service to run as the system admin did the trick, though, TopShelf doesn’t offer this as a default install address, you can just have:
 
@@ -58,7 +58,7 @@ hc.SetDisplayName(DisplayName);
 hc.SetServiceName(Name);
 ~~~
 
-And this, worked like a charm!
+And this worked like a charm!
 
 This got me thinking about the 3 “RunAs” I had to choose between, and what purpose I would use each of them for, so lifted from a TechNet post  (<http://technet.microsoft.com/en-us/library/cc782435(v=ws.10).aspx>).
 

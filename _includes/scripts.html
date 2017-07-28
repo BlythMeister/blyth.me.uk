@@ -34,5 +34,7 @@
     })();
 </script>
 {% endif %}
+{% if post.comments or post.commentsCount %}
 <!-- Disqus Count -->
 <script id="dsq-count-scr" src="https://blythmeister.disqus.com/count.js" async></script>
+{% endif %}
