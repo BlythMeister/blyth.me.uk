@@ -18,7 +18,7 @@ body {
 
 .container-rounded {
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(1, 1, 1, 0.7);
+    box-shadow: 0 0 20px grey;
     background-color: #FFFFFF;
     padding: 15px;
 }
@@ -73,8 +73,10 @@ body {
 
         .sidebar .aboutme .avatar {
             height: 150px;
+            width: 150px;
             border-radius: 50%;
-            padding-bottom: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 10px grey;
         }
 
     .sidebar .recentPosts {
@@ -111,7 +113,7 @@ body {
 }
 
     .fa.fa-twitter {
-        background: #55ACEE;
+        background: #1DA1F2;
         color: #FFFFFF;
     }
 
