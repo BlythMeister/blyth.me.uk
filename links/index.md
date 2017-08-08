@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Research Links
-image: /images/me.png
 ---
 
 ## Reading Links
