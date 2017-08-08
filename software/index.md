@@ -1,7 +1,5 @@
 ---
-layout: default
 title: My Apps & Software
-image: /images/me.png
 ---
 
 ## My Apps & Software
