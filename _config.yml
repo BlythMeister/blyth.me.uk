@@ -36,6 +36,25 @@ permalink: pretty
 paginate: 5
 paginate_path: "/blog/page:num"
 
+#Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      image: /images/me.png
+      twitter_image_small: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      image: /images/me.png
+      twitter_image_small: true
+
 #Gems
 gems:
   - jekyll-redirect-from
