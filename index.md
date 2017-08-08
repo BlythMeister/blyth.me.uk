@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Home
-image: /images/me.png
 ---
 
 ## Welcome
