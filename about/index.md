@@ -1,7 +1,5 @@
 ---
-layout: default
 title: About Me
-image: /images/me.png
 ---
 
 ## About Me
