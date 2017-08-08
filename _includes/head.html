@@ -23,7 +23,7 @@
 {% seo %}
 {% endcapture %}
 
-{% if twitter_image_small %}
+{% if page.twitter_image_small or post.twitter_image_small %}
     {{ seo | replace: "summary_large_image", "summary" }}
 {% else %}
     {{ seo }}
