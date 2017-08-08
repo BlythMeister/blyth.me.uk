@@ -23,4 +23,8 @@
 {% seo %}
 {% endcapture %}
 
-{{ seo | replace: "summary_large_image", "summary" }}
+{% if twitter_image_small %}
+    {{ seo | replace: "summary_large_image", "summary" }}
+{% else %}
+    {{ seo }}
+{% endif %}
