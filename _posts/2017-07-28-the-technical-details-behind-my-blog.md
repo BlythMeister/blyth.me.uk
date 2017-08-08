@@ -1,9 +1,7 @@
 ---
-layout: post
 title: The Technical Details Behind My Blog
 date: 2017-07-28 13:30:00 -0000
 excerpt: The full scoop on why and how I created my own GitHub pages hosted blog and the technologies I used
-image: /images/me.png
 tags: [blog, wordpress, GitHub Pages, CloudFlare, BootStrap]
 comments: true
 ---
