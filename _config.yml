@@ -15,10 +15,10 @@ webmaster_verifications:
 twitter:
     username: BlythMeister
 
-#facebook:
-#   app_id: [a Facebook app ID for Facebook insights]
-#   publisher: [a Facebook page URL or ID of the publishing entity]
-#   admins: [a Facebook user ID for domain insights linked to a personal account]
+facebook:
+   app_id: 1934053506806190
+   publisher: 285001657
+   admins: 285001657
 
 social:
     name: Chris Blyth
