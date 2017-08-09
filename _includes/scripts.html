@@ -16,8 +16,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- Twitter Widget -->
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<!-- Page Share -->
-<script async type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5978889407abae3a"></script> 
+{% if page.layout == 'post' %}
+    <!-- Page Share -->
+    <script async type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5978889407abae3a"></script> 
+{% endif %}
 {% if post.comments %}
 <!-- Disqus thread -->
 <script>
