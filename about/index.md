@@ -1,5 +1,6 @@
 ---
 title: About Me
+description: "Me, Myself & I"
 ---
 
 ## About Me

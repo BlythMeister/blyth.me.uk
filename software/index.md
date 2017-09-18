@@ -1,5 +1,6 @@
 ---
 title: My Apps & Software
+description: "My many open sourced software projects"
 ---
 
 ## My Apps & Software

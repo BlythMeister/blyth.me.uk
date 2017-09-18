@@ -1,5 +1,6 @@
 ---
 title: Home
+description: "My virtual notepad for ideas, ramblings, my creations and my learnings."
 ---
 
 ## Welcome
