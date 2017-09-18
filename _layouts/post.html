@@ -14,24 +14,10 @@
                     <div class="col-lg-12">
                         {% assign post = page %}
                         <h2>{{ post.title }}</h2>
-                        <h3>
-                            <small>
-                                <span class="date"><i class="fa fa-calendar">&nbsp;</i>{{ post.date | date: "%d %B %Y" }}</span>
-                                {% if post.tags.size > 0 %}
-                                <span> | </span>
-                                {% if post.tags.size > 1 %}
-                                <span class="tags"><i class="fa fa-tags">&nbsp;</i>{{ post.tags | join: ', ' }}</span>
-                                {% else %}
-                                <span class="tags"><i class="fa fa-tag">&nbsp;</i>{{ post.tags }}</span>
-                                {% endif %}
-                                {% endif %}
-                                {% if post.comments %}
-                                <span> | </span>
-                                <span class="comments"><i class="fa fa-comment">&nbsp;</i><a href="{{ post.url }}#disqus_thread">View Comments</a></span>
-                                {% endif %}
-                            </small>
-                        </h3>
+                        <h3>{% include postmeta.html %}</h3>
+                        
                         <div class="addthis_inline_share_toolbox"></div>
+                        
                         <p class="devide-top">
                             {{ content }}
                         </p>

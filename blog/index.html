@@ -12,23 +12,7 @@ NOTE: This has to be HTML for the paginator to work
 {% for post in paginator.posts %}
 <div class="{% if forloop.last == false %}devide-bottom{% endif %}">
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <h4>
-        <small>
-            <span class="date"><i class="fa fa-calendar">&nbsp;</i>{{ post.date | date: "%d %B %Y" }}</span>
-            {% if post.tags.size > 0 %}
-            <span> | </span>
-            {% if post.tags.size > 1 %}
-            <span class="tags"><i class="fa fa-tags">&nbsp;</i>{{ post.tags | join: ', ' }}</span>
-            {% else %}
-            <span class="tags"><i class="fa fa-tag">&nbsp;</i>{{ post.tags }}</span>
-            {% endif %}
-            {% endif %}
-            {% if post.comments %}
-            <span> | </span>
-            <span class="comments"><i class="fa fa-comment">&nbsp;</i><a href="{{ post.url }}#disqus_thread">View Comments</a></span>
-            {% endif %}
-        </small>
-    </h4>
+    <h4>{% include postmeta.html %}</h4>
     {{ post.content }}
 </div>
 {% endfor %}
