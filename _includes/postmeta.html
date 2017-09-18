@@ -1,15 +1,23 @@
+{% if post.url %}
+  {% assign path = post.path %}
+{% else %}
+  {% assign path = page.path %}
+{% endif %}
+
 <small>
     <span class="date"><i class="fa fa-calendar">&nbsp;</i>{{ post.date | date: "%d %B %Y" }}</span>
-    {% if post.tags.size > 0 %}
     <span> | </span>
+    <span class="edit"><i class="fa fa-pencil">&nbsp;</i><a href="https://github.com/BlythMeister/blyth.me.uk/edit/gh-pages/{{ path }}">Edit</a></span>
+    {% if post.comments %}
+    <span> | </span>
+    <span class="comments"><i class="fa fa-comment">&nbsp;</i><a href="{{ post.url }}#disqus_thread">View Comments</a></span>
+    {% endif %}
+    {% if post.tags.size > 0 %}
+    <br />    
     {% if post.tags.size > 1 %}
     <span class="tags"><i class="fa fa-tags">&nbsp;</i>{{ post.tags | join: ', ' }}</span>
     {% else %}
     <span class="tags"><i class="fa fa-tag">&nbsp;</i>{{ post.tags }}</span>
     {% endif %}
-    {% endif %}
-    {% if post.comments %}
-    <span> | </span>
-    <span class="comments"><i class="fa fa-comment">&nbsp;</i><a href="{{ post.url }}#disqus_thread">View Comments</a></span>
     {% endif %}
 </small>
