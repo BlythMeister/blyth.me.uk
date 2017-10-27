@@ -4,6 +4,7 @@ date: 2012-07-14 11:44:00 -0000
 excerpt: At 15below we are using a tool called Octopus for our product deployment.  The tool works well, but it's integration to install our web-based application products doesn't suit our needs.
 tags: [15below, Deployment, Ensconce, IIS, Powershell]
 comments: true
+show: true
 ---
 
 ## Overview

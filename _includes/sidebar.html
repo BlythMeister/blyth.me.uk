@@ -19,7 +19,8 @@
 </div>
 <div class="col-lg-12 recentPosts">
     <h4>Recent Posts <a href="{{ site.url }}/feed.xml" class="fa fa-rss"></a></h4>
-    {% for post in site.posts limit:5 %}
+    {% assign publishedPosts = site.posts | where: 'show', 'true' %}
+    {% for post in publishedPosts  limit:5 %}
     <div class="media {% if forloop.last == false %}media-underline{% endif %}">
         <div class="media-body">
             <a href="{{ post.url }}">

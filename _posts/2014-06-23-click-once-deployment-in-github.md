@@ -4,6 +4,7 @@ date: 2014-06-26 13:46:00 -0000
 excerpt: Introducing my new blog designed by myself (no nasty templates!) and hosted in GitHub Pages
 tags: [AutoUpdate, click-once, deploy, Gallifrey, GitHub, publish]
 comments: true
+show: true
 ---
 
 ## Overview 
