@@ -1,5 +1,5 @@
 html {
-    height: 100%
+    height: 100%;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
     background: -ms-linear-gradient(top, #ABCDEF 0%,#FFFFFF 100%); /* IE10+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ABCDEF', endColorstr='#FFFFFF',GradientType=0 ); /* IE6-9 */
     background: linear-gradient(top, #ABCDEF 0%,#FFFFFF 100%); /* W3C */
-    background-attachment: fixed
+    background-attachment: fixed;
 }
 
 .container-rounded {
@@ -67,7 +67,7 @@ body {
 }
 
 .nav {
-    padding-left: 5px
+    padding-left: 5px;
 }
 
 .mainFrame {
@@ -82,11 +82,11 @@ body {
 }
 
 .sidebar {
-    height: 100%
+    height: 100%;
 }
 
     .sidebar .aboutme {
-        padding-bottom: 10px
+        padding-bottom: 10px;
     }
 
         .sidebar .aboutme .avatar {
@@ -97,9 +97,15 @@ body {
             box-shadow: 0 0 10px grey;
         }
 
+    .sidebar .advert {
+        border-top: 1px solid grey;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
     .sidebar .recentPosts {
         border-top: 1px solid grey;
-        padding-bottom: 10px
+        padding-bottom: 10px;
     }
 
         .sidebar .recentPosts .media-underline {
