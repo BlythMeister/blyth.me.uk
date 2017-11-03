@@ -23,6 +23,12 @@ body {
     padding: 15px;
 }
 
+.dropdown-menu-justified
+{
+    width: 100%; 
+    text-align: center;
+}
+
 .dont-break-out {
   /* These are technically the same, but use both */
   overflow-wrap: break-word;
