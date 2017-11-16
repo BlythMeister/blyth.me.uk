@@ -172,6 +172,11 @@ body {
         color: #FFFFFF;
     }
 
+    .fa.fa-amazon {
+        background: #FFFFFF;
+        color: #000000;
+    }
+
 a.fa:hover {
     opacity: 0.7;
     text-decoration: none;
