@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿{% comment %}
+NOTE: When loading as a post the content is under "page" set this as "post" so we can use the same includes
+{% endcomment %}
+{% assign post = page %}
+<!DOCTYPE html>
 <html lang="{{ site.lang }}">
 <head>
     {% include head.html %}
