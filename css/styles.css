@@ -5,14 +5,21 @@ html {
 body {
     padding: 15px;
     margin: 0;
-    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0.18, rgb(74,12,107)), color-stop(0.87, rgb(102,153,102)) );
-    background: -moz-linear-gradient(top, #ABCDEF 0%, #FFFFFF 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ABCDEF), color-stop(100%,#FFFFFF)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #ABCDEF 0%,#FFFFFF 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #ABCDEF 0%,#FFFFFF 100%); /* Opera11.10+ */
-    background: -ms-linear-gradient(top, #ABCDEF 0%,#FFFFFF 100%); /* IE10+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ABCDEF', endColorstr='#FFFFFF',GradientType=0 ); /* IE6-9 */
-    background: linear-gradient(top, #ABCDEF 0%,#FFFFFF 100%); /* W3C */
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0.18, rgb(74, 12, 107)), color-stop(0.87, rgb(102, 153, 102)));
+    background: -moz-linear-gradient(top, #ABCDEF 0%, #FFFFFF 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ABCDEF), color-stop(100%, #FFFFFF));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ABCDEF 0%, #FFFFFF 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ABCDEF 0%, #FFFFFF 100%);
+    /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #ABCDEF 0%, #FFFFFF 100%);
+    /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ABCDEF', endColorstr='#FFFFFF', GradientType=0);
+    /* IE6-9 */
+    background: linear-gradient(top, #ABCDEF 0%, #FFFFFF 100%);
+    /* W3C */
     background-attachment: fixed;
 }
 
@@ -23,28 +30,25 @@ body {
     padding: 15px;
 }
 
-.dropdown-menu-justified
-{
-    width: 100%; 
+.dropdown-menu-justified {
+    width: 100%;
     text-align: center;
 }
 
 .dont-break-out {
-  /* These are technically the same, but use both */
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-
-  -ms-word-break: break-all;
-  /* This is the dangerous one in WebKit, as it breaks things wherever */
-  word-break: break-all;
-  /* Instead use this non-standard one: */
-  word-break: break-word;
-
-  /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto;
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
 
 .container {
@@ -53,11 +57,11 @@ body {
     box-sizing: border-box;
 }
 
-    .container .row .no-float {
-        display: table-cell;
-        float: none;
-        vertical-align: top;
-    }
+.container .row .no-float {
+    display: table-cell;
+    float: none;
+    vertical-align: top;
+}
 
 .header {
     margin-top: 5px;
@@ -91,32 +95,32 @@ body {
     height: 100%;
 }
 
-    .sidebar .aboutme {
-        padding-bottom: 10px;
-    }
+.sidebar .topItem {
+    padding-bottom: 10px;
+}
 
-        .sidebar .aboutme .avatar {
-            height: 150px;
-            width: 150px;
-            border-radius: 50%;
-            margin-bottom: 10px;
-            box-shadow: 0 0 10px grey;
-        }
+.sidebar .avatar {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px grey;
+}
 
-    .sidebar .advert {
-        border-top: 1px solid grey;
-        padding-bottom: 10px;
-        padding-top: 10px;
-    }
+.sidebar .middelItem {
+    border-top: 1px solid grey;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 
-    .sidebar .recentPosts {
-        border-top: 1px solid grey;
-        padding-bottom: 10px;
-    }
+.sidebar .bottomItem {
+    border-top: 1px solid grey;
+    padding-top: 10px;
+}
 
-        .sidebar .recentPosts .media-underline {
-            border-bottom: 1px solid grey;
-        }
+.sidebar .media-underline {
+    border-bottom: 1px solid grey;
+}
 
 .devide-bottom {
     border-bottom: 1px solid grey;
@@ -137,45 +141,45 @@ body {
     vertical-align: middle;
 }
 
-    .fa.fa-twitter {
-        background: #1DA1F2;
-        color: #FFFFFF;
-    }
+.fa.fa-twitter {
+    background: #1DA1F2;
+    color: #FFFFFF;
+}
 
-    .fa.fa-linkedin {
-        background: #007BB5;
-        color: #FFFFFF;
-    }
+.fa.fa-linkedin {
+    background: #007BB5;
+    color: #FFFFFF;
+}
 
-    .fa.fa-github {
-        background: #000000;
-        color: #FFFFFF;
-    }
+.fa.fa-github {
+    background: #000000;
+    color: #FFFFFF;
+}
 
-    .fa.fa-google-plus {
-        background: #DB4437;
-        color: #FFFFFF;
-    }
+.fa.fa-google-plus {
+    background: #DB4437;
+    color: #FFFFFF;
+}
 
-    .fa.fa-spotify {
-        background: #000000;
-        color: #1ED760;
-    }
+.fa.fa-spotify {
+    background: #000000;
+    color: #1ED760;
+}
 
-    .fa.fa-rss {
-        background: #FF6600;
-        color: #FFFFFF;
-    }
+.fa.fa-rss {
+    background: #FF6600;
+    color: #FFFFFF;
+}
 
-    .fa.fa-youtube-play {
-        background: #FF0000;
-        color: #FFFFFF;
-    }
+.fa.fa-youtube-play {
+    background: #FF0000;
+    color: #FFFFFF;
+}
 
-    .fa.fa-amazon {
-        background: #000000;
-        color: #FF9900;
-    }
+.fa.fa-amazon {
+    background: #000000;
+    color: #FF9900;
+}
 
 a.fa:hover {
     opacity: 0.7;

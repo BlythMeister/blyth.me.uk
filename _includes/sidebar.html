@@ -1,4 +1,4 @@
-<div class="aboutme">
+<div class="topItem">
     <div>
         <h4>About Me</h4>
         <img src="{{ site.url }}/images/me.png" class="avatar" />
@@ -18,17 +18,17 @@
         <a target="_blank" href="https://www.amazon.co.uk/gp/profile/amzn1.account.AFHXXI3AAWF42IIBKLD3VYLFOT7A?ie=UTF8&amp;ref_=sv_ys_3&_encoding=UTF8&tag=blythmeister-21&linkCode=ur2&linkId=ffd9c02aa9d52411723c3e68a9583c21&camp=1634&creative=6738" class="fa fa-amazon"></a>
     </div>
 </div>
-<div class="advert">
+<div class="middleItem">
     Do you track your time in Jira?<br/>
     Then Gallifrey could save you hours each week!<br/>
     Check out <a target="_blank" href="https://gallifreyapp.co.uk">GallifreyApp.co.uk</a> to find out more.
 </div>
-<div class="advert">
+<div class="middleItem">
     Help support my site running costs by using my Amazon advert below.<br />
     <a target="_blank" href="https://www.amazon.co.uk?&_encoding=UTF8&tag=blythmeister-21&linkCode=ur2&linkId=a589bf1bbb986ae38d36c5e20b64498a&camp=1634&creative=6738">Amazon.co.uk</a>
     <img src="//ir-uk.amazon-adsystem.com/e/ir?t=blythmeister-21&l=ur2&o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 </div>
-<div class="recentPosts">
+<div class="bottomItem">
     <h4>Recent Posts <a href="{{ site.url }}/feed.xml" class="fa fa-rss"></a></h4>
     {% assign publishedPosts = site.posts | where: 'show', 'true' %}
     {% for post in publishedPosts  limit:5 %}
