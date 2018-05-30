@@ -9,13 +9,13 @@
         </p>
     </div>
     <div>
-        <a target="_blank" href="https://www.twitter.com/BlythMeister" class="fa fa-twitter"></a>
-        <a target="_blank" href="https://www.linkedin.com/in/chris-blyth/" class="fa fa-linkedin"></a>
-        <a target="_blank" href="https://github.com/BlythMeister" class="fa fa-github"></a>
-        <a target="_blank" href="https://plus.google.com/+ChrisBlyth-BlythMeister" class="fa fa-google-plus"></a>
-        <a target="_blank" href="https://open.spotify.com/user/BlythMeister" class="fa fa-spotify"></a>
-        <a target="_blank" href="https://www.youtube.com/channel/UC75NXNugjDXbboQcsc7y1tg" class="fa fa-youtube-play"></a>
-        <a target="_blank" href="https://keybase.io/blythmeister" class="fa fa-keybase"></a>
+        <a target="_blank" href="https://www.twitter.com/BlythMeister" class="fab fa-twitter"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/chris-blyth/" class="fab fa-linkedin"></a>
+        <a target="_blank" href="https://github.com/BlythMeister" class="fab fa-github"></a>
+        <a target="_blank" href="https://plus.google.com/+ChrisBlyth-BlythMeister" class="fab fa-google-plus"></a>
+        <a target="_blank" href="https://open.spotify.com/user/BlythMeister" class="fab fa-spotify"></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UC75NXNugjDXbboQcsc7y1tg" class="fab fa-youtube-play"></a>
+        <a target="_blank" href="https://keybase.io/blythmeister" class="fab fa-keybase"></a>
     </div>
 </div>
 <div class="middleItem">
@@ -29,7 +29,7 @@
     <img src="//ir-uk.amazon-adsystem.com/e/ir?t=blythmeister-21&l=ur2&o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 </div>
 <div class="bottomItem">
-    <h4>Recent Posts <a href="{{ site.url }}/feed.xml" class="fa fa-rss"></a></h4>
+    <h4>Recent Posts <a href="{{ site.url }}/feed.xml" class="fab fa-rss"></a></h4>
     {% assign publishedPosts = site.posts | where: 'show', 'true' %}
     {% for post in publishedPosts  limit:5 %}
     <div class="media {% if forloop.last == false %}media-underline{% endif %}">
@@ -37,7 +37,7 @@
             <a href="{{ post.url }}">
                 <h5 class="media-heading">{{ post.title }}</h5>
             </a>
-            <p><i class="fa fa-calendar">&nbsp;</i>{{ post.date | date: "%d %B %Y" }}</p>
+            <p><i class="fab fa-calendar">&nbsp;</i>{{ post.date | date: "%d %B %Y" }}</p>
             {{ post.excerpt }}
         </div>
     </div>
