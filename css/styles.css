@@ -176,9 +176,9 @@ body {
     color: #FFFFFF;
 }
 
-.fa.fa-amazon {
-    background: #000000;
-    color: #FF9900;
+.fa.fa-keybase {
+    background: #33A0FF;
+    color: #000000;
 }
 
 a.fa:hover {
