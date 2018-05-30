@@ -4,7 +4,7 @@
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 <!-- ReportURI -->
-<meta http-equiv="Content-Security-Policy" content="connect-src blythmeister.report-uri.com links.services.disqus.com m.addthis.com; img-src 'self' ir-uk.amazon-adsystem.com www.google-analytics.com referrer.disqus.com c.disquscdn.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' maxcdn.bootstrapcdn.com ajax.googleapis.com www.google-analytics.com s7.addthis.com m.addthisedge.com m.addthis.com blythmeister.disqus.com c.disquscdn.com disqus.com cdn.report-uri.com; style-src 'self' 'unsafe-inline' maxcdn.bootstrapcdn.com cdnjs.cloudflare.com c.disquscdn.com">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' cdn.report-uri.com ajax.googleapis.com www.google-analytics.com maxcdn.bootstrapcdn.com s7.addthis.com m.addthisedge.com m.addthis.com blythmeister.disqus.com c.disquscdn.com disqus.com; style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com maxcdn.bootstrapcdn.com c.disquscdn.com; img-src 'self' ir-uk.amazon-adsystem.com www.google-analytics.com referrer.disqus.com c.disquscdn.com; connect-src blythmeister.report-uri.com links.services.disqus.com m.addthis.com; font-src maxcdn.bootstrapcdn.com cdnjs.cloudflare.com; upgrade-insecure-requests;">
 <script type="text/json" id="csp-report-uri">
 {
     "keys" : ["blockedURI", "columnNumber", "disposition", "documentURI", "effectiveDirective", "lineNumber", "originalPolicy", "referrer", "sample", "sourceFile", "statusCode", "violatedDirective"],
@@ -16,7 +16,7 @@
 <!--BEGIN LINKS-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0= sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
 <link href="{{ site.url }}/css/styles.css" rel="stylesheet">
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/favicon.ico">
 <link href="{{ site.url }}/feed.xml" rel="alternate" title="{{site.title}}" type="application/atom+xml">
