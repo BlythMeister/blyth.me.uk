@@ -29,7 +29,7 @@
     <img src="//ir-uk.amazon-adsystem.com/e/ir?t=blythmeister-21&l=ur2&o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 </div>
 <div class="bottomItem">
-    <h4>Recent Posts <a href="{{ site.url }}/feed.xml" class="fab fa-rss"></a></h4>
+    <h4>Recent Posts <a href="{{ site.url }}/feed.xml" class="fas fa-rss"></a></h4>
     {% assign publishedPosts = site.posts | where: 'show', 'true' %}
     {% for post in publishedPosts  limit:5 %}
     <div class="media {% if forloop.last == false %}media-underline{% endif %}">
@@ -37,7 +37,7 @@
             <a href="{{ post.url }}">
                 <h5 class="media-heading">{{ post.title }}</h5>
             </a>
-            <p><i class="fab fa-calendar">&nbsp;</i>{{ post.date | date: "%d %B %Y" }}</p>
+            <p><i class="far fa-calendar">&nbsp;</i>{{ post.date | date: "%d %B %Y" }}</p>
             {{ post.excerpt }}
         </div>
     </div>
