@@ -22,7 +22,7 @@ Overview is my fully [open source](https://github.com/BlythMeister/Fitbit-Overvi
 
 The watch face is published into the [Fitbit gallery](https://gallery.fitbit.com/details/7c4f7506-8ed8-4eb9-84e3-28b85671f26b) so is easy to download and install onto  your watch.
 Or you can use the handy QR code
-![QR code](https://github.com/BlythMeister/Fitbit-Overview-Face/raw/master/screenshots/QR.png?raw=true)
+![QR code]({{ site.url}}/images/posts/2019-06-18-fitbit-overview-watchface-launch/QR.png)
 
 It supports all 3 Fitbit customisable watches (Ionic, Versa & Versa Lite) and comes jam packed with customisable options.
 
@@ -60,21 +60,31 @@ It also has support for the following languages:
 
 The standard layout is as follows
 
-![Ionic](https://raw.githubusercontent.com/BlythMeister/Fitbit-Overview-Face/1.0.15/screenshots/Ionic/1.base.png)
+![Ionic]({{ site.url}}/images/posts/2019-06-18-fitbit-overview-watchface-launch/Ionic.base.png)
 
 The watch face can be cut down to bare minimum information like this
 
-![Ionic-Cutdown](https://raw.githubusercontent.com/BlythMeister/Fitbit-Overview-Face/1.0.15/screenshots/Ionic/3.cutdown.png)
+![Ionic-Cutdown]({{ site.url}}/images/posts/2019-06-18-fitbit-overview-watchface-launch/Ionic.cutdown.png)
 
-### Versa & Versa Lite Devices
+### Versa Device
 
 The standard layout is as follows
 
-![Versa](https://raw.githubusercontent.com/BlythMeister/Fitbit-Overview-Face/1.0.15/screenshots/Versa/1.base.png)
+![Versa]({{ site.url}}/images/posts/2019-06-18-fitbit-overview-watchface-launch/Versa.base.png)
 
 The watch face can be cut down to bare minimum information like this
 
-![Versa-Cutdown](https://raw.githubusercontent.com/BlythMeister/Fitbit-Overview-Face/1.0.15/screenshots/Versa/3.cutdown.png)
+![Versa-Cutdown]({{ site.url}}/images/posts/2019-06-18-fitbit-overview-watchface-launch/Versa.cutdown.png)
+
+### Versa Lite Device
+
+The standard layout is as follows
+
+![Versa-Lite]({{ site.url}}/images/posts/2019-06-18-fitbit-overview-watchface-launch/VersaLite.base.png)
+
+The watch face can be cut down to bare minimum information like this
+
+![Versa-Lite-Cutdown]({{ site.url}}/images/posts/2019-06-18-fitbit-overview-watchface-launch/VersaLite.cutdown.png)
 
 ## Cost
 

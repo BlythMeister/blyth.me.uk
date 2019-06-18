@@ -25,7 +25,7 @@ With a pretty long stack trace after!
 
 Now, this does look like a useful error, with a link to a Microsoft post (<a href="http://go.microsoft.com/fwlink/?LinkId=70353"><code>http://go.microsoft.com/fwlink/?LinkId=70353</code></a>).  Brilliant I thought until I found clicking the link resulted in this…
 
-![Error Loading Image]({{ site.url}}/images/posts/go-microsoft-com_link70353_notload.png){:height="103px" width="300px"}
+![Error Loading Image]({{ site.url}}/images/posts/2012-06-15-local-service-network-service-or-local-system-self-hosted-wcf/go-microsoft-com_link70353_notload.png){:height="103px" width="300px"}
 This was far from helpful
 
 The first thing that confused me was the URL, which changed from "http://localhost:8082/MyWCFService" changed to "http://+:8082/MyWCFService/". When looking at URLs, it would seem that the "+" symbol means "Generic host", therefore it could be anything, as long as it is on this PC. The config could state "http://127.0.0.1:8082/MyWCFService/" whereby localhost and 127.0.0.1 are the same. The log file only shows the 1 value, a "+".
