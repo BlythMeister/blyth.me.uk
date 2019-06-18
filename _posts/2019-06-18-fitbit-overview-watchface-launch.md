@@ -22,6 +22,7 @@ Overview is my fully [open source](https://github.com/BlythMeister/Fitbit-Overvi
 
 The watch face is published into the [Fitbit gallery](https://gallery.fitbit.com/details/7c4f7506-8ed8-4eb9-84e3-28b85671f26b) so is easy to download and install onto  your watch.
 Or you can use the handy QR code
+
 ![QR code]({{ site.url}}/images/posts/2019-06-18-fitbit-overview-watchface-launch/QR.png)
 
 It supports all 3 Fitbit customisable watches (Ionic, Versa & Versa Lite) and comes jam packed with customisable options.
