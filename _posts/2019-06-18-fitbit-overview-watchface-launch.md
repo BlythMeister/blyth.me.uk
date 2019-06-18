@@ -3,6 +3,7 @@ title: Fitbit Overview Watch face Launch
 date: 2019-06-18 09:00:00 -0000
 excerpt: Introducing the Fitbit Overview watch face
 tags: [Fitbit, watch, stats]
+image: {{ site.url}}/images/posts/2019-06-18-fitbit-overview-watchface-launch/Versa.base.png
 comments: true
 show: true
 ---
