@@ -16,6 +16,7 @@ webmaster_verifications:
 #Social
 twitter:
     username: BlythMeister
+    card: summary
 
 facebook:
    app_id: 1934053506806190
@@ -47,7 +48,6 @@ defaults:
     values:
       layout: "default"
       image: /images/me.png
-      twitter_image_small: true
   -
     scope:
       path: ""
@@ -55,7 +55,6 @@ defaults:
     values:
       layout: "post"
       image: /images/me.png
-      twitter_image_small: true
 
 #Gems
 gems:

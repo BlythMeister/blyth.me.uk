@@ -1,6 +1,7 @@
 ---
 title: My Apps & Software
 description: "My many open sourced software projects"
+redirect_from: "/sofware/"
 ---
 
 ## My Apps & Software
@@ -41,3 +42,27 @@ GitHub: <https://github.com/BlythMeister/Gallifrey>
 Website: <https://gallifreyapp.co.uk>
 
 Download: Links on website, app auto updates
+
+### Paket Sorter
+
+A helper tool to chain [paket](https://fsprojects.github.io/Paket/) commands together.
+
+GitHub: <https://github.com/BlythMeister/PaketSorter>
+
+Download: Available in the "Releases" section
+
+### Fitbit Overview Watch Face
+
+A stats heavy watch face for Fitbit devices.
+
+GitHub: <https://github.com/BlythMeister/Fitbit-Overview-Face>
+
+Fitbit Gallery: <https://gallery.fitbit.com/details/7c4f7506-8ed8-4eb9-84e3-28b85671f26b>
+
+Download: Use the FitBit app on your phone to view the gallery listing
+
+### Advent Of Code
+
+My solutions to the [advent of code](http://adventofcode.com/) puzzles
+
+GitHub: <https://github.com/BlythMeister/AdventOfCode>

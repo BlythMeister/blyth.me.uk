@@ -4,13 +4,13 @@
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 <!-- ReportURI -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self' ; script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.report-uri.com ajax.googleapis.com www.google-analytics.com maxcdn.bootstrapcdn.com s7.addthis.com m.addthisedge.com m.addthis.com api-public.addthis.com www.linkedin.com graph.facebook.com blythmeister.disqus.com c.disquscdn.com disqus.com ajax.cloudflare.com; style-src 'self' 'unsafe-inline' use.fontawesome.com maxcdn.bootstrapcdn.com c.disquscdn.com; img-src 'self' data: ir-uk.amazon-adsystem.com www.google-analytics.com referrer.disqus.com c.disquscdn.com links.services.disqus.com cdn.viglink.com secure.adnxs.com; font-src maxcdn.bootstrapcdn.com use.fontawesome.com c.disquscdn.com; connect-src blythmeister.report-uri.com links.services.disqus.com m.addthis.com s7.addthis.com www.google-analytics.com; frame-src disqus.com s7.addthis.com; upgrade-insecure-requests; block-all-mixed-content;">	
-<script type="text/json" id="csp-report-uri">	
-{	
-    "keys" : ["blockedURI", "columnNumber", "disposition", "documentURI", "effectiveDirective", "lineNumber", "originalPolicy", "referrer", "sample", "sourceFile", "statusCode", "violatedDirective"],	
-    "reportUri" : "https://blythmeister.report-uri.com/r/d/csp/enforce"	
-}	
-</script>	
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' ; script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.report-uri.com ajax.googleapis.com www.google-analytics.com maxcdn.bootstrapcdn.com s7.addthis.com m.addthisedge.com m.addthis.com api-public.addthis.com www.linkedin.com graph.facebook.com blythmeister.disqus.com c.disquscdn.com disqus.com ajax.cloudflare.com; style-src 'self' 'unsafe-inline' use.fontawesome.com maxcdn.bootstrapcdn.com c.disquscdn.com; img-src 'self' data: ir-uk.amazon-adsystem.com www.google-analytics.com referrer.disqus.com c.disquscdn.com links.services.disqus.com cdn.viglink.com secure.adnxs.com; font-src maxcdn.bootstrapcdn.com use.fontawesome.com c.disquscdn.com; connect-src blythmeister.report-uri.com links.services.disqus.com m.addthis.com s7.addthis.com www.google-analytics.com; frame-src disqus.com s7.addthis.com; upgrade-insecure-requests; block-all-mixed-content;">
+<script type="text/json" id="csp-report-uri">
+{
+    "keys" : ["blockedURI", "columnNumber", "disposition", "documentURI", "effectiveDirective", "lineNumber", "originalPolicy", "referrer", "sample", "sourceFile", "statusCode", "violatedDirective"],
+    "reportUri" : "https://blythmeister.report-uri.com/r/d/csp/enforce"
+}
+</script>
 <script src="https://cdn.report-uri.com/libs/report-uri-js/1.0.1/report-uri-js.min.js" integrity="sha256-Cng8gUe98XCqh5hc8nAM3y5I1iQHBjzOl8X3/iAd4jE=" crossorigin="anonymous"></script>
 
 <!--BEGIN LINKS-->
@@ -29,12 +29,4 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-{% capture seo %}
 {% seo %}
-{% endcapture %}
-
-{% if page.twitter_image_small or post.twitter_image_small %}
-    {{ seo | replace: "summary_large_image", "summary" }}
-{% else %}
-    {{ seo }}
-{% endif %}
