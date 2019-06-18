@@ -1,7 +1,7 @@
 ---
 title: My Apps & Software
 description: "My many open sourced software projects"
-redirect_from: "/sofware/"
+redirect_from: "/software/"
 ---
 
 ## My Apps & Software
