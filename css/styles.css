@@ -212,3 +212,8 @@ a.far:hover {
     background: #E9ECE9;
     color: #495057;
 }
+
+.fab.fa-paypal {
+    background: #012169;
+    color: #FFFFFF;
+}
