@@ -56,8 +56,8 @@ defaults:
       layout: "post"
       image: /images/me.png
 
-#Gems
-gems:
+#Plugins
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-seo-tag
