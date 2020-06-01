@@ -17,9 +17,9 @@ I've had the pleasure of working with many exciting people in the travel industr
 
 ### Love Of Coding
 
-My love of coding has lead me to create a few open source code projects which can be found on my GitHub. These include the bing background image downloader (for desktop wallpapers), the secret santa helper/emailer & my latest and most popular app called Gallifrey.
+My love of coding has lead me to create a few open source code projects which can be found on my GitHub. These can be found [on my software page]({{ site.url }}/software/mine).
 
-Gallifrey is an helper for the Atlassian Jira product where you can use an array of stopwatches to time how long tasks take, then export this as a time sheet into Jira. Gallifrey is used by many people across 4 continents, and I'm very proud of this achievement. The product continues to grow and gain downloads on the Atlassian marketplace.
+I am a huge believer in open source software being the future and will strive to ensure that all software is open to everyone.
 
 ### Personal Life
 
