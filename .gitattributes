@@ -1,4 +1,1 @@
-*.manifest binary
-*.application binary
-*.deploy binary
 *.sh  text eol=lf

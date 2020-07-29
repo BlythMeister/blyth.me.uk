@@ -74,7 +74,7 @@ Keep your desktop fresh with these high definition images.
 
 GitHub: <https://github.com/BlythMeister/BingImageDowload>
 
-Download: Available in the "Releases" section
+Nuget (dotnet tool): <https://www.nuget.org/packages/BingImageDownload>
 
 ### Secret Santa Helper
 

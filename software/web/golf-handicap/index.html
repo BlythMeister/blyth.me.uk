@@ -1,0 +1,47 @@
+---
+title: Golf Handicap Calculator
+description: Handicap calculator for the world handicap system
+---
+
+<h2>Golf Handicap Calculator</h2>
+
+<p>
+    The <a href="https://www.whs.com/">world handicap system</a> is a global system for calculating your
+    handicap for each course.
+</p>
+<p>
+    This page will take your handicap, and the course your playing (or the course "slope index") and provide
+    your handicap on the course.
+</p>
+<p>
+    <script type="text/javascript">
+        function calculateHandicap() {
+            var slopeRating = $("#slopeRating").val();
+            var handicapIndex = $("#handicapIndex").val();
+            var handicap = handicapIndex * (slopeRating / 113);
+            alert(handicap);
+            return false;
+        }
+    </script>
+<form onsubmit="calculateHandicap()">
+    <!--<div class="form-group">
+        <label for="courseSelect">Course</label>
+        <select class="form-control" id="courseSelect">
+            <option selected>Choose...</option>
+            <option value="1">Course 1</option>
+            <option value="2">Course 2</option>
+            <option value="3">Course 3</option>
+            <option value="3">Other</option>
+          </select>
+    </div>-->
+    <div class="form-group">
+        <label for="slopeRating">Slope Rating</label>
+        <input type="text" class="form-control" id="slopeRating">
+    </div>
+    <div class="form-group">
+        <label for="handicapIndex">Handicap Index</label>
+        <input type="text" class="form-control" id="handicapIndex">
+    </div>
+    <button type="submit" class="btn btn-primary">Calculate</button>
+</form>
+</p>
