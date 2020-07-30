@@ -3,11 +3,15 @@
     <span> | </span>
     <span class="edit"><i class="fas fa-edit">&nbsp;</i><a href="https://github.com/BlythMeister/blyth.me.uk/edit/master/{{ post.path }}" target="_blank">Edit Post</a></span>
     {% if post.tags.size > 0 %}
-    <br />    
+    {% if post.tags.size > 5 %}
+    <br />
+    {% else %}
+    <span> | </span>
+    {% endif %}  
     {% if post.tags.size > 1 %}
     <span class="tags"><i class="fas fa-tags">&nbsp;</i>{{ post.tags | join: ', ' }}</span>
     {% else %}
-    <span class="tags"><i class="fas fa-tag">&nbsp;</i>{{ post.tags }}</span>
+    <span class="tags"><i class="fas fa-tag">&nbsp;</i>{{ post.tags }}</span>    
     {% endif %}
     {% endif %}
 </small>
