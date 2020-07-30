@@ -1,47 +1,113 @@
 ---
-title: Golf Handicap Calculator
-description: Handicap calculator for the world handicap system
+title: UK Golf Course Handicap Calculator
+description: UK golf course handicap calculator for the world handicap system
 ---
 
-<h2>Golf Handicap Calculator</h2>
+<h2>UK Golf Course Handicap Calculator</h2>
 
 <p>
-    The <a href="https://www.whs.com/">world handicap system</a> is a global system for calculating your
-    handicap for each course.
+    The <a href="https://www.whs.com/">World Handicap System (WHS)</a> requires you to be aware of your Course Handicap
+    for the particular Golf Course that you are playing.
 </p>
 <p>
-    This page will take your handicap, and the course your playing (or the course "slope index") and provide
-    your handicap on the course.
+    By Inputting the course Slope Rating and your Exact Handicap Index this page will calculate your Course Handicap.
 </p>
 <p>
-    <script type="text/javascript">
-        function calculateHandicap() {
-            var slopeRating = $("#slopeRating").val();
-            var handicapIndex = $("#handicapIndex").val();
-            var handicap = handicapIndex * (slopeRating / 113);
-            alert(handicap);
-            return false;
-        }
-    </script>
-<form onsubmit="calculateHandicap()">
-    <!--<div class="form-group">
+    The calculation for this is: Exact Handicap Index X (Slope Rating / 113)
+</p>
+<p>
+    To add or update any courses, please send me an <a href="mailto:golf@blyth.me.uk">email</a>
+</p>
+<p>
+<form id="courseHandicap">
+    <div class="form-group">
         <label for="courseSelect">Course</label>
         <select class="form-control" id="courseSelect">
-            <option selected>Choose...</option>
-            <option value="1">Course 1</option>
-            <option value="2">Course 2</option>
-            <option value="3">Course 3</option>
-            <option value="3">Other</option>
-          </select>
-    </div>-->
+            <option value="-2" selected>Choose...</option>
+            <option value="-1">Unlisted Course</option>
+            <option value="103">Cuckfield White (Men's)</option>
+            <option value="120">Cuckfield White (Ladies)</option>
+            <option value="98">Cuckfield Yellow (Men's)</option>
+            <option value="112">Cuckfield Red (Ladies)</option>
+        </select>
+    </div>
     <div class="form-group">
         <label for="slopeRating">Slope Rating</label>
-        <input type="text" class="form-control" id="slopeRating">
+        <input type="number" class="form-control" id="slopeRating" min="55" max="155" required disabled>
     </div>
     <div class="form-group">
-        <label for="handicapIndex">Handicap Index</label>
-        <input type="text" class="form-control" id="handicapIndex">
+        <label for="handicapIndex">Exact Handicap Index</label>
+        <input type="number" class="form-control" id="handicapIndex" min="-10" max="55" step="0.1" required disabled>
     </div>
-    <button type="submit" class="btn btn-primary">Calculate</button>
+    <button id="handicapCalculate" type="submit" class="btn btn-secondary" disabled>Calculate</button>
 </form>
 </p>
+<p>
+    If you find this tool useful and want to donate to help support this and other tools, see my <a
+        href="{{ site.url }}/donations">donations</a> page for information.
+</p>
+<div class="modal fade" tabindex="-1" role="dialog" id="handicapModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                <h4 class="modal-title">Course Handicap</h4>
+            </div>
+            <div class="modal-body">
+                <p id="handicapModalText"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $("#courseHandicap").submit(function (e) {
+        e.preventDefault();
+        var message = "";
+        var slopeRating = $("#slopeRating").val();
+        var handicapIndex = $("#handicapIndex").val();
+        var courseVal = $("#courseSelect").val();
+        var courseText = $( "#courseSelect option:selected").text();
+
+        if (slopeRating == "") {
+            message = "A slope rating is required";
+        } else {
+            if (handicapIndex == "") {
+                message = "A handicap index is required";
+            } else {
+                var handicap = Math.round(handicapIndex * (slopeRating / 113));
+                if (courseVal > 0) {
+                    message = `Course: <b>${courseText}</b></br>Slope Rating: <b>${slopeRating}</b></br>Handicap Index: <b>${handicapIndex}</b></br>Course Handicap: <b>${handicap}</b>`;
+                } else {
+                    message = `Slope Rating: <b>${slopeRating}</b></br>Handicap Index: <b>${handicapIndex}</b></br>Course Handicap: <b>${handicap}</b>`;
+                }
+                
+            }
+        }
+
+        $("#handicapModalText").html(message);
+        $('#handicapModal').modal('show');
+    });
+
+    $("#courseSelect").change(function () {
+        var courseVal = $("#courseSelect").val();
+        if (courseVal == -2) {
+            $("#slopeRating").val("").prop("disabled", true);
+            $("#handicapIndex").val("").prop("disabled", true);
+            $("#handicapCalculate").prop("disabled", true);
+        } else {
+            if (courseVal == -1) {
+                $("#slopeRating").val("").prop("disabled", false);
+                $("#handicapIndex").prop("disabled", false);
+                $("#handicapCalculate").prop("disabled", false);
+            } else {
+                $("#slopeRating").val(courseVal).prop("disabled", true);
+                $("#handicapIndex").prop("disabled", false);
+                $("#handicapCalculate").prop("disabled", false);
+            }
+        }
+    });
+
+</script>

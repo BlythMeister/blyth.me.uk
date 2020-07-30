@@ -25,5 +25,5 @@ I am a huge believer in open source software being the future and will strive to
 
 I am an avid Brighton & Hove Albion supporter and have been since I was 5.
 
-This means I was around in the "war years" seeing the last season and a half at the Goldstone Ground, travlling to Gillingham for the 2 seasons in exile.
+This means I was around in the "war years" seeing the last season and a half at the Goldstone Ground, travelling to Gillingham for the 2 seasons in exile.
 The 12 years at the Withdean and now the amazing American Express community stadium.
