@@ -212,3 +212,18 @@ a.far:hover {
     background: #E9ECE9;
     color: #495057;
 }
+
+.fab.fa-facebook-f {
+    background: #1778F2;
+    color: #FFFFFF;
+}
+
+.far.fa-envelope {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.fab.fa-whatsapp {
+    background: #25D366;
+    color: #FFFFFF;
+}
