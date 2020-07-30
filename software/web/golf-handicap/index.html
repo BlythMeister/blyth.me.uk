@@ -78,10 +78,11 @@ description: UK golf course handicap calculator for the world handicap system
                 message = "A handicap index is required";
             } else {
                 var handicap = Math.round(handicapIndex * (slopeRating / 113));
+                var handicap9 = Math.round((handicapIndex * (slopeRating / 113)) / 2);
                 if (courseVal > 0) {
-                    message = `Course: <b>${courseText}</b></br>Slope Rating: <b>${slopeRating}</b></br>Handicap Index: <b>${handicapIndex}</b></br>Course Handicap: <b>${handicap}</b>`;
+                    message = `Course: <b>${courseText}</b></br>Slope Rating: <b>${slopeRating}</b></br>Handicap Index: <b>${handicapIndex}</b></br><hr>Course Handicap (<u>9 hole</u>): <b>${handicap9}</b></br>Course Handicap (<u>18 hole</u>): <b>${handicap}</b>`;
                 } else {
-                    message = `Slope Rating: <b>${slopeRating}</b></br>Handicap Index: <b>${handicapIndex}</b></br>Course Handicap: <b>${handicap}</b>`;
+                    message = `Slope Rating: <b>${slopeRating}</b></br>Handicap Index: <b>${handicapIndex}</b></br><hr>Course Handicap (<u>9 hole</u>): <b>${handicap9}</b></br>Course Handicap (<u>18 hole</u>): <b>${handicap}</b>`;
                 }
                 
             }
