@@ -107,6 +107,10 @@ body {
     box-shadow: 0 0 10px grey;
 }
 
+.sidebar .icons {
+    margin-bottom: 10px;
+}
+
 .sidebar .middleItem {
     border-top: 1px solid grey;
     padding-bottom: 10px;
@@ -226,4 +230,14 @@ a.far:hover {
 .fab.fa-whatsapp {
     background: #25D366;
     color: #FFFFFF;
+}
+
+.fab.fa-amazon {
+    background: #131921;
+    color: #FFFFFF;
+}
+
+.fab.fa-goodreads-g {
+    background: #F4F1EA;
+    color: #372213;
 }

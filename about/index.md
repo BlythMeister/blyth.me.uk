@@ -21,6 +21,10 @@ My love of coding has lead me to create a few open source code projects which ca
 
 I am a huge believer in open source software being the future and will strive to ensure that all software is open to everyone.
 
+### Reading
+
+I am a fan of crime thriller books.  I particularly like books by James Patterson & local author Peter James.
+
 ### Personal Life
 
 I am an avid Brighton & Hove Albion supporter and have been since I was 5.
