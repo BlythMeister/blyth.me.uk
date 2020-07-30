@@ -3,7 +3,6 @@ title: GIT 9 Months In
 date: 2012-06-06 08:10:00 -0000
 excerpt: 9 months ago I had never heard of, let alone use GIT for source code repository.
 tags: [git, GitHub, Source Control, SourceSafe, SubVersion]
-comments: true
 show: true
 ---
 
