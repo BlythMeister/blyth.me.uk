@@ -5,6 +5,7 @@ url: https://www.blyth.me.uk
 author: BlythMeister
 logo: /images/me.png
 lang: en_GB
+enableCsp: true
 
 GoogleAnalytics: UA-103064997-1
 
