@@ -21,14 +21,16 @@ description: UK golf course handicap calculator for the world handicap system
 <p>
 <form id="courseHandicap">
     <div class="form-group">
+        <label for="lengthSelect">9 / 18 Hole</label>
+        <select class="form-control" id="lengthSelect">
+            <option value="-1" selected>Choose...</option>
+            <option value="9">9 hole</option>
+            <option value="18">18 hole</option>
+        </select>
+    </div>
+    <div class="form-group">
         <label for="courseSelect">Course</label>
-        <select class="form-control" id="courseSelect">
-            <option value="-2" selected>Choose...</option>
-            <option value="-1">Unlisted Course</option>
-            <option value="103">Cuckfield White (Men's)</option>
-            <option value="120">Cuckfield White (Ladies)</option>
-            <option value="98">Cuckfield Yellow (Men's)</option>
-            <option value="112">Cuckfield Red (Ladies)</option>
+        <select class="form-control" id="courseSelect" disabled>
         </select>
     </div>
     <div class="form-group">
@@ -51,7 +53,7 @@ description: UK golf course handicap calculator for the world handicap system
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
-                <h4 class="modal-title">Course Handicap</h4>
+                <h4 class="modal-title" id="handicapModalTitle">Course Handicap</h4>
             </div>
             <div class="modal-body">
                 <p id="handicapModalText"></p>
@@ -66,10 +68,12 @@ description: UK golf course handicap calculator for the world handicap system
     $("#courseHandicap").submit(function (e) {
         e.preventDefault();
         var message = "";
+        var title = "";
         var slopeRating = $("#slopeRating").val();
         var handicapIndex = $("#handicapIndex").val();
+        var lengthVal = $("#lengthSelect").val();
         var courseVal = $("#courseSelect").val();
-        var courseText = $( "#courseSelect option:selected").text();
+        var courseText = $("#courseSelect option:selected").text();
 
         if (slopeRating == "") {
             message = "A slope rating is required";
@@ -77,18 +81,25 @@ description: UK golf course handicap calculator for the world handicap system
             if (handicapIndex == "") {
                 message = "A handicap index is required";
             } else {
-                var handicap = Math.round(handicapIndex * (slopeRating / 113));
-                var handicap9 = Math.round((handicapIndex * (slopeRating / 113)) / 2);
-                if (courseVal > 0) {
-                    message = `Course: <b>${courseText}</b></br>Slope Rating: <b>${slopeRating}</b></br>Handicap Index: <b>${handicapIndex}</b></br><hr>Course Handicap (<u>9 hole</u>): <b>${handicap9}</b></br>Course Handicap (<u>18 hole</u>): <b>${handicap}</b>`;
+                var handicap = 0;
+                if (lengthVal == 9) {
+                    title = "9 Hole Course Handicap"
+                    handicap = Math.round((handicapIndex * (slopeRating / 113)) / 2);
                 } else {
-                    message = `Slope Rating: <b>${slopeRating}</b></br>Handicap Index: <b>${handicapIndex}</b></br><hr>Course Handicap (<u>9 hole</u>): <b>${handicap9}</b></br>Course Handicap (<u>18 hole</u>): <b>${handicap}</b>`;
+                    title = "18 Hole Course Handicap"
+                    handicap = Math.round(handicapIndex * (slopeRating / 113));
                 }
-                
+
+                if (courseVal > 0) {
+                    message = `Course: <b>${courseText}</b></br>Slope Rating: <b>${slopeRating}</b></br>Handicap Index: <b>${handicapIndex}</b></br><hr>Course Handicap: <b>${handicap}</b>`;
+                } else {
+                    message = `Slope Rating: <b>${slopeRating}</b></br>Handicap Index: <b>${handicapIndex}</b></br><hr>Course Handicap: <b>${handicap}</b>`;
+                }
             }
         }
 
         $("#handicapModalText").html(message);
+        $("#handicapModalTitle").text(title);
         $('#handicapModal').modal('show');
     });
 
@@ -109,6 +120,30 @@ description: UK golf course handicap calculator for the world handicap system
                 $("#handicapCalculate").prop("disabled", false);
             }
         }
+    });
+
+    $("#lengthSelect").change(function () {
+        var lengthVal = $("#lengthSelect").val();
+        if (lengthVal == -1) {
+            $("#courseSelect").prop("disabled", true);
+            $("#slopeRating").val("").prop("disabled", true);
+            $("#handicapIndex").val("").prop("disabled", true);
+            $("#handicapCalculate").prop("disabled", true);
+        } else {
+            $('#courseSelect').empty();
+            $("#courseSelect").prop("disabled", false);
+            $('#courseSelect').append("<option value='-2'>Choose...</option>");
+            $('#courseSelect').append("<option value='-1'>Unlisted Course</option>");
+            if (lengthVal == 9) {
+
+            } else {
+                $('#courseSelect').append("<option value='103'>Cuckfield White (Men's)</option>");
+                $('#courseSelect').append("<option value='120'>Cuckfield White (Ladies)</option>");
+                $('#courseSelect').append("<option value='98'>Cuckfield Yellow (Men's)</option>");
+                $('#courseSelect').append("<option value='112'>Cuckfield Red (Ladies)</option>");
+            }
+        }
+        $("#courseSelect").val(-2);
     });
 
 </script>
