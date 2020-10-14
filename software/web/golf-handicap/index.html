@@ -13,7 +13,11 @@ description: UK golf course handicap calculator for the world handicap system
     By Inputting the course Slope Rating and your Exact Handicap Index this page will calculate your Course Handicap.
 </p>
 <p>
-    The calculation for this is: Exact Handicap Index X (Slope Rating / 113)
+    The calculations for this are:</br>
+    <ul>
+        <li>9 hole course: ((Exact Handicap Index / 2) X (Slope Rating / 113)) + Course Rating - Course Par</li>
+        <li>18 hole course: Exact Handicap Index X (Slope Rating / 113)</li>
+    </ul>
 </p>
 <p>
     To add or update any courses, please send me an <a href="mailto:golf@blyth.me.uk">email</a>
@@ -36,6 +40,14 @@ description: UK golf course handicap calculator for the world handicap system
     <div class="form-group">
         <label for="slopeRating">Slope Rating</label>
         <input type="number" class="form-control" id="slopeRating" min="55" max="155" required disabled>
+    </div>    
+    <div class="form-group">
+        <label for="courseRating">Course Rating</label>
+        <input type="number" class="form-control" id="courseRating" min="27" max="90" required disabled>
+    </div>    
+    <div class="form-group">
+        <label for="coursePar">Course Par</label>
+        <input type="number" class="form-control" id="coursePar" min="27" max="90" required disabled>
     </div>
     <div class="form-group">
         <label for="handicapIndex">Exact Handicap Index</label>
@@ -69,8 +81,10 @@ description: UK golf course handicap calculator for the world handicap system
         e.preventDefault();
         var message = "";
         var title = "";
-        var slopeRating = $("#slopeRating").val();
-        var handicapIndex = $("#handicapIndex").val();
+        var slopeRating = parseFloat($("#slopeRating").val());
+        var courseRating = parseFloat($("#courseRating").val());
+        var coursePar = parseFloat($("#coursePar").val());
+        var handicapIndex = parseFloat($("#handicapIndex").val());
         var lengthVal = $("#lengthSelect").val();
         var courseVal = $("#courseSelect").val();
         var courseText = $("#courseSelect option:selected").text();
@@ -84,16 +98,24 @@ description: UK golf course handicap calculator for the world handicap system
                 var handicap = 0;
                 if (lengthVal == 9) {
                     title = "9 Hole Course Handicap"
-                    handicap = Math.round((handicapIndex * (slopeRating / 113)) / 2);
+                    handicap = Math.round(((handicapIndex / 2) * (slopeRating / 113)) + courseRating - coursePar);
                 } else {
                     title = "18 Hole Course Handicap"
                     handicap = Math.round(handicapIndex * (slopeRating / 113));
                 }
-
-                if (courseVal > 0) {
-                    message = `Course: <b>${courseText}</b></br>Slope Rating: <b>${slopeRating}</b></br>Handicap Index: <b>${handicapIndex}</b></br><hr>Course Handicap: <b>${handicap}</b>`;
+                
+                if (lengthVal == 9) {
+                    if (courseText != "Unlisted Course") {
+                        message = `Course: <b>${courseText}</b></br>Slope Rating: <b>${slopeRating}</b></br>Course Rating: <b>${courseRating}</b></br>Course Par: <b>${coursePar}</b></br>Handicap Index: <b>${handicapIndex}</b></br><hr>Course Handicap: <b>${handicap}</b>`;
+                    } else {
+                        message = `Slope Rating: <b>${slopeRating}</b></br>Course Rating: <b>${courseRating}</b></br>Course Par: <b>${coursePar}</b></br>Handicap Index: <b>${handicapIndex}</b></br><hr>Course Handicap: <b>${handicap}</b>`;
+                    }
                 } else {
-                    message = `Slope Rating: <b>${slopeRating}</b></br>Handicap Index: <b>${handicapIndex}</b></br><hr>Course Handicap: <b>${handicap}</b>`;
+                    if (courseText != "Unlisted Course") {
+                        message = `Course: <b>${courseText}</b></br>Slope Rating: <b>${slopeRating}</b></br>Handicap Index: <b>${handicapIndex}</b></br><hr>Course Handicap: <b>${handicap}</b>`;
+                    } else {
+                        message = `Slope Rating: <b>${slopeRating}</b></br>Handicap Index: <b>${handicapIndex}</b></br><hr>Course Handicap: <b>${handicap}</b>`;
+                    }
                 }
             }
         }
@@ -105,19 +127,39 @@ description: UK golf course handicap calculator for the world handicap system
 
     $("#courseSelect").change(function () {
         var courseVal = $("#courseSelect").val();
-        if (courseVal == -2) {
+        if (courseVal == -3) {
             $("#slopeRating").val("").prop("disabled", true);
+            $("#courseRating").val("").prop("disabled", true);
+            $("#coursePar").val("").prop("disabled", true);
             $("#handicapIndex").val("").prop("disabled", true);
             $("#handicapCalculate").prop("disabled", true);
         } else {
-            if (courseVal == -1) {
+            if (courseVal == -2) {
                 $("#slopeRating").val("").prop("disabled", false);
+                $("#courseRating").val("").prop("disabled", false);
+                $("#coursePar").val("").prop("disabled", false);
                 $("#handicapIndex").prop("disabled", false);
                 $("#handicapCalculate").prop("disabled", false);
             } else {
-                $("#slopeRating").val(courseVal).prop("disabled", true);
-                $("#handicapIndex").prop("disabled", false);
-                $("#handicapCalculate").prop("disabled", false);
+                if (courseVal == -1) {
+                    $("#slopeRating").val("").prop("disabled", false);
+                    $("#courseRating").val("").prop("disabled", true);
+                    $("#coursePar").val("").prop("disabled", true);
+                    $("#handicapIndex").prop("disabled", false);
+                    $("#handicapCalculate").prop("disabled", false);
+                } else {
+                    var courseValParts = courseVal.split(",");
+                    $("#slopeRating").val(courseValParts[0]).prop("disabled", true);
+                    if(courseValParts.length == 3) {
+                        $("#courseRating").val(courseValParts[1]).attr("placeholder", "").prop("disabled", true);
+                        $("#coursePar").val(courseValParts[2]).attr("placeholder", "").prop("disabled", true);
+                    } else {                                            
+                        $("#courseRating").val("").attr("placeholder", "Not Required").prop("disabled", true);
+                        $("#coursePar").val("").attr("placeholder", "Not Required").prop("disabled", true);
+                    }                    
+                    $("#handicapIndex").prop("disabled", false);
+                    $("#handicapCalculate").prop("disabled", false);
+                }
             }
         }
     });
@@ -127,28 +169,41 @@ description: UK golf course handicap calculator for the world handicap system
         if (lengthVal == -1) {
             $("#courseSelect").prop("disabled", true);
             $("#slopeRating").val("").prop("disabled", true);
+            $("#courseRating").val("").prop("disabled", true);
+            $("#coursePar").val("").prop("disabled", true);
             $("#handicapIndex").val("").prop("disabled", true);
             $("#handicapCalculate").prop("disabled", true);
         } else {
             $('#courseSelect').empty();
             $("#courseSelect").prop("disabled", false);
-            $('#courseSelect').append("<option value='-2'>Choose...</option>");
-            $('#courseSelect').append("<option value='-1'>Unlisted Course</option>");
+            $('#courseSelect').append("<option value='-3'>Choose...</option>");            
             if (lengthVal == 9) {
-                $('#courseSelect').append("<option value='-1'>Cuckfield Black (Men's)</option>");
-                $('#courseSelect').append("<option value='-1'>Cuckfield Black (Ladies)</option>");
-                $('#courseSelect').append("<option value='-1'>Cuckfield Salmon (Men's)</option>");
-                $('#courseSelect').append("<option value='-1'>Cuckfield Salmon (Ladies)</option>");
-                $('#courseSelect').append("<option value='-1'>Cuckfield Blue (Men's)</option>");
-                $('#courseSelect').append("<option value='-1'>Cuckfield Blue (Ladies)</option>");
+                $('#courseSelect').append("<option value='-2'>Unlisted Course</option>");
+                $('#courseSelect').append("<option value='125,36,37'>Cuckfield Black (Men's)</option>");
+                $('#courseSelect').append("<option value='125,36,37'>Cuckfield Black (Ladies)</option>");
+                $('#courseSelect').append("<option value='125,36,37'>Cuckfield Salmon (Men's)</option>");
+                $('#courseSelect').append("<option value='125,36,37'>Cuckfield Salmon (Ladies)</option>");
+                $('#courseSelect').append("<option value='125,36,34'>Cuckfield Blue (Men's)</option>");
+                $('#courseSelect').append("<option value='125,36,34'>Cuckfield Blue (Ladies)</option>");
+
+                $("#courseRating").val("").attr("placeholder", "").prop("disabled", true);
+                $("#coursePar").val("").attr("placeholder", "").prop("disabled", true);
             } else {
+                $('#courseSelect').append("<option value='-1'>Unlisted Course</option>");
                 $('#courseSelect').append("<option value='103'>Cuckfield White (Men's)</option>");
                 $('#courseSelect').append("<option value='120'>Cuckfield White (Ladies)</option>");
                 $('#courseSelect').append("<option value='98'>Cuckfield Yellow (Men's)</option>");
                 $('#courseSelect').append("<option value='112'>Cuckfield Red (Ladies)</option>");
+
+                $("#courseRating").val("").attr("placeholder", "Not Required").prop("disabled", true);
+                $("#coursePar").val("").attr("placeholder", "Not Required").prop("disabled", true);
             }
+
+            $("#slopeRating").val("").prop("disabled", true);
+            $("#handicapIndex").val("").prop("disabled", true);
+            $("#handicapCalculate").prop("disabled", true);
         }
-        $("#courseSelect").val(-2);
+        $("#courseSelect").val(-3);
     });
 
 </script>
