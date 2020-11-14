@@ -22,7 +22,8 @@ description: "Projects I help maintain & contribute to"
 * [nunit/teamcity-event-listener](https://github.com/nunit/teamcity-event-listener/commits?author=BlythMeister) - NUnit event publisher for TeamCity
 * [MahApps/MahApps.Metro](https://github.com/MahApps/MahApps.Metro/commits?author=BlythMeister) - Desktop UI Framework
 * [chriseldredge/NuGet.Lucene](https://github.com/chriseldredge/NuGet.Lucene/commits?author=BlythMeister) - Lucene index for the Klondike nuget feed
-
+* [flcdrg/au-packages](https://github.com/flcdrg/au-packages)
+* [maartenba/ChocolateyPackages](https://github.com/maartenba/ChocolateyPackages)
 
 ## Non-Code Contributor
 
