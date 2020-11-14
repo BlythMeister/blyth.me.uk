@@ -76,6 +76,16 @@ GitHub: <https://github.com/BlythMeister/BingImageDowload>
 
 Nuget (dotnet tool): <https://www.nuget.org/packages/BingImageDownload>
 
+### WebhookRelay.net
+
+This is a Azure function which can be made public and an app which runs behind your firewall to relay external webhooks internally.
+
+It works by publishing the contents of the webhook on the Azure service bus.
+
+The internal app is configured where to route webhooks to.
+
+GitHub: <https://github.com/BlythMeister/WebhookRelay.net>
+
 ### Secret Santa Helper
 
 A small Christmas themed WPF app in which you enter participants in a Secret Santa.
