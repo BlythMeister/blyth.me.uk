@@ -59,7 +59,7 @@ description: UK golf course handicap calculator for the world handicap system
     </div>
         <div class="form-group">
         <label for="handicapAllowance">Handicap Allowance</label>
-        <select class="form-control" id="handicapAllowance">
+        <select class="form-control" id="handicapAllowance" required disabled>
             <option value="100" selected="selected">100%</option>
             <option value="95">95%</option>
             <option value="90">90%</option>
@@ -159,7 +159,8 @@ description: UK golf course handicap calculator for the world handicap system
             $("#courseRating").val("").prop("disabled", true);
             $("#coursePar").val("").prop("disabled", true);
             $("#handicapIndex").val("").prop("disabled", true);
-            $("#handicapAllowance").val("100").prop("disabled", true);
+            $("#handicapAllowance option[value='100%']").prop('selected', true);
+            $("#handicapAllowance").prop("disabled", true);
             $("#handicapCalculate").prop("disabled", true);
         } else {
             if (courseVal == -2) {
@@ -203,7 +204,8 @@ description: UK golf course handicap calculator for the world handicap system
             $("#courseRating").val("").prop("disabled", true);
             $("#coursePar").val("").prop("disabled", true);
             $("#handicapIndex").val("").prop("disabled", true);
-            $("#handicapAllowance").val("100").prop("disabled", true);
+            $("#handicapAllowance option[value='100%']").prop('selected', true);
+            $("#handicapAllowance").prop("disabled", true);
             $("#handicapCalculate").prop("disabled", true);
         } else {
             $('#courseSelect').empty();
@@ -233,7 +235,8 @@ description: UK golf course handicap calculator for the world handicap system
 
             $("#slopeRating").val("").prop("disabled", true);
             $("#handicapIndex").val("").prop("disabled", true);
-            $("#handicapAllowance").val("100").prop("disabled", false);
+            $("#handicapAllowance option[value='100%']").prop('selected', true);
+            $("#handicapAllowance").prop("disabled", true);
             $("#handicapCalculate").prop("disabled", true);
         }
         $("#courseSelect").val(-3);
