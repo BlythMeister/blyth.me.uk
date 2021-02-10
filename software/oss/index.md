@@ -24,6 +24,9 @@ description: "Projects I help maintain & contribute to"
 * [chriseldredge/NuGet.Lucene](https://github.com/chriseldredge/NuGet.Lucene/commits?author=BlythMeister) - Lucene index for the Klondike nuget feed
 * [flcdrg/au-packages](https://github.com/flcdrg/au-packages/commits?author=BlythMeister) - Various Chocolatey Packages
 * [maartenba/ChocolateyPackages](https://github.com/maartenba/ChocolateyPackages/commits?author=BlythMeister) - TeamCity agent Chocolatey Package
+<!-- Unmerged PR * [StefanScherer/choco-docker-cli](https://github.com/StefanScherer/choco-docker-cli/commits?author=BlythMeister) - Docker CLI Chocolatey Package -->
+<!-- Unmerged PR * [OctopusDeploy/OctopusClients](https://github.com/OctopusDeploy/OctopusClients/commits?author=BlythMeister) - Octopus Deploy Clieny -->
+<!-- Unmerged PR * [cake-build/cake](https://github.com/cake-build/cake/commits?author=BlythMeister) - Cake build -->
 
 ## Non-Code Contributor
 
