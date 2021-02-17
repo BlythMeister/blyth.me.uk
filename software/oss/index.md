@@ -26,7 +26,7 @@ description: "Projects I help maintain & contribute to"
 * [maartenba/ChocolateyPackages](https://github.com/maartenba/ChocolateyPackages/commits?author=BlythMeister) - TeamCity agent Chocolatey Package
 <!-- Unmerged PR * [StefanScherer/choco-docker-cli](https://github.com/StefanScherer/choco-docker-cli/commits?author=BlythMeister) - Docker CLI Chocolatey Package -->
 * [OctopusDeploy/OctopusClients](https://github.com/OctopusDeploy/OctopusClients/commits?author=BlythMeister) - Octopus Deploy Client
-<!-- Unmerged PR * [cake-build/cake](https://github.com/cake-build/cake/commits?author=BlythMeister) - Cake build -->
+* [cake-build/cake](https://github.com/cake-build/cake/commits?author=BlythMeister) - Cake build
 
 ## Non-Code Contributor
 
