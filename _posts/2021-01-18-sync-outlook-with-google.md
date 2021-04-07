@@ -1,6 +1,6 @@
 ---
 title: Sync Outlook Or Office 365 With Google
-date: 2020-01-18 08:00:00 -0000
+date: 2021-01-18 08:00:00 -0000
 excerpt: Syncing You Work Calendar With Ease
 tags: [Office,Outlook,Google,Work,Home]
 show: true

@@ -6,6 +6,8 @@ tags: [git, GitHub, History, Migration, Move Folder]
 show: true
 ---
 
+<div class="alert alert-warning" role="alert">Updated version as of 7th April 2021: <a href="/2021/04/07/migrating-folder-to-new-git-repository-with-history/">Migrating Folder To New GIT Repository With History</a> </div>
+
 ## The Brief
 
 I recently had a situation where I needed to move parts of a GIT repository over to a new repository but wanted to keep all the history from the original repository.
