@@ -130,7 +130,7 @@ description: UK golf course handicap calculator for the world handicap system
                     handicapRaw = handicapIndex * (slopeRating / 113);
                 }
                 var handicapAsPercent = Math.round(handicapRaw) * handicapPercentage;
-                handicap = Math.round(handicapAsPercentage);
+                handicap = Math.round(handicapAsPercent);
                 
                 if (lengthVal == 9) {
                     if (courseText != "Unlisted Course") {
