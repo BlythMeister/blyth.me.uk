@@ -129,7 +129,8 @@ description: UK golf course handicap calculator for the world handicap system
                     title = "18 Hole Course Handicap"
                     handicapRaw = handicapIndex * (slopeRating / 113);
                 }
-                handicap = Math.round(handicapRaw * handicapPercentage);
+                var handicapAsPercent = Math.round(handicapRaw) * handicapPercentage;
+                handicap = Math.round(handicapAsPercentage);
                 
                 if (lengthVal == 9) {
                     if (courseText != "Unlisted Course") {
