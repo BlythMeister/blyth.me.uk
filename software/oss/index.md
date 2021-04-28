@@ -3,6 +3,20 @@ title: My OSS Profile
 description: "Projects I help maintain & contribute to"
 ---
 
+## Owner
+
+* [BlythMeister/Gallifrey](https://github.com/BlythMeister/Gallifrey) - Gallifrey time tracking app
+* [BlythMeister/PaketChain](https://github.com/BlythMeister/PaketChain) - Paket Chain dotnet tool
+* [BlythMeister/Doser](https://github.com/BlythMeister/Doser) - Doser dotnet tool
+* [BlythMeister/google-diff-match-patch](https://github.com/BlythMeister/google-diff-match-patch) - Google diff-match-patch port library
+* [BlythMeister/Fitbit-Overview-Face](https://github.com/BlythMeister/Fitbit-Overview-Face) - Fitbit "Overview" watch face
+* [BlythMeister/BingImageDowload](https://github.com/BlythMeister/BingImageDowload) - Bing image downloader dotnet tool
+* [BlythMeister/WebhookRelay.net](https://github.com/BlythMeister/WebhookRelay.net) - Web request relay Azure function & local app connected via Azure Service Bus
+* [BlythMeister/SecretSantaHelper](https://github.com/BlythMeister/SecretSantaHelper) - Primative app to create "Secret Santa" emails
+* [BlythMeister/AdventOfCode](https://github.com/BlythMeister/AdventOfCode) - My solutions to the Advent Of Code puzzles
+
+More information on these projects can be found on the dedicated page: [My Software]({{ site.url }}/software/mine)
+
 ## Maintainer
 
 * [15below/Ensconce](https://github.com/15below/Ensconce/commits?author=BlythMeister) - The 15below deployment helper tool
@@ -27,7 +41,7 @@ description: "Projects I help maintain & contribute to"
 <!-- Unmerged PR (https://github.com/StefanScherer/choco-docker-cli/pull/7) * [StefanScherer/choco-docker-cli](https://github.com/StefanScherer/choco-docker-cli/commits?author=BlythMeister) - Docker CLI Chocolatey Package -->
 * [OctopusDeploy/OctopusClients](https://github.com/OctopusDeploy/OctopusClients/commits?author=BlythMeister) - Octopus Deploy Client
 * [cake-build/cake](https://github.com/cake-build/cake/commits?author=BlythMeister) - Cake build
-<!-- Unmerged PR (https://github.com/DotNetAnalyzers/StyleCopAnalyzers/pull/3340) * [DotNetAnalyzers/StyleCopAnalyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/commits?author=BlythMeister) - StyleCop DotNet analyser -->
+* [DotNetAnalyzers/StyleCopAnalyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/commits?author=BlythMeister) - StyleCop DotNet analyser
 
 ## Non-Code Contributor
 
