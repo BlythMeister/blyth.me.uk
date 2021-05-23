@@ -11,6 +11,7 @@ description: "Projects I help maintain & contribute to"
 * [BlythMeister/google-diff-match-patch](https://github.com/BlythMeister/google-diff-match-patch) - Google diff-match-patch port library
 * [BlythMeister/Fitbit-Overview-Face](https://github.com/BlythMeister/Fitbit-Overview-Face) - Fitbit "Overview" watch face
 * [BlythMeister/BingImageDowload](https://github.com/BlythMeister/BingImageDowload) - Bing image downloader dotnet tool
+* [BlythMeister/Timelapse](https://github.com/BlythMeister/Timelapse) - bash script & C# console to make a timelapse
 * [BlythMeister/WebhookRelay.net](https://github.com/BlythMeister/WebhookRelay.net) - Web request relay Azure function & local app connected via Azure Service Bus
 * [BlythMeister/SecretSantaHelper](https://github.com/BlythMeister/SecretSantaHelper) - Primative app to create "Secret Santa" emails
 * [BlythMeister/AdventOfCode](https://github.com/BlythMeister/AdventOfCode) - My solutions to the Advent Of Code puzzles
