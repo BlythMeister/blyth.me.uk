@@ -76,6 +76,12 @@ GitHub: <https://github.com/BlythMeister/BingImageDowload>
 
 Nuget (dotnet tool): <https://www.nuget.org/packages/BingImageDownload>
 
+### Timelapse
+
+A bash script to take webcam image every minute and C# app to timestamp images and compile into a video at 30FPS
+
+GitHub: <https://github.com/BlythMeister/Timelapse>
+
 ### WebhookRelay.net
 
 This is a Azure function which can be made public and an app which runs behind your firewall to relay external webhooks internally.
