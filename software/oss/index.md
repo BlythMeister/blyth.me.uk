@@ -43,6 +43,7 @@ More information on these projects can be found on the dedicated page: [My Softw
 * [OctopusDeploy/OctopusClients](https://github.com/OctopusDeploy/OctopusClients/commits?author=BlythMeister) - Octopus Deploy Client
 * [cake-build/cake](https://github.com/cake-build/cake/commits?author=BlythMeister) - Cake build
 * [DotNetAnalyzers/StyleCopAnalyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/commits?author=BlythMeister) - StyleCop DotNet analyser
+* [gitextensions/gitextensions](https://github.com/gitextensions/gitextensions/commits?author=BlythMeister) - GitExtensions graphical git client
 
 ## Non-Code Contributor
 
