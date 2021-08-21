@@ -50,7 +50,7 @@ It also extends upon the original to output nicer formatted HTML & Text for you 
 
 GitHub: <https://github.com/BlythMeister/google-diff-match-patch>
 
-Nuget (dotnet tool): <https://www.nuget.org/packages/google-diff-match-patch>
+Nuget: <https://www.nuget.org/packages/google-diff-match-patch>
 
 ### Fitbit Overview Watch Face
 
