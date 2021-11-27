@@ -76,6 +76,16 @@ GitHub: <https://github.com/BlythMeister/BingImageDowload>
 
 Nuget (dotnet tool): <https://www.nuget.org/packages/BingImageDownload>
 
+### What3Passwords
+
+A random password generator using the (What3Words)[https://what3words.com] API.
+
+The tool picks a random location to get 3 random words and uses this to create a randomised password.
+
+GitHub: <https://github.com/BlythMeister/What3Passwords>
+
+Nuget (dotnet tool): <https://www.nuget.org/packages/What3Passwords>
+
 ### Timelapse
 
 A bash script to take webcam image every minute and C# app to timestamp images and compile into a video at 30FPS
