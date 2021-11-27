@@ -78,7 +78,7 @@ Nuget (dotnet tool): <https://www.nuget.org/packages/BingImageDownload>
 
 ### What3Passwords
 
-A random password generator using the (What3Words)[https://what3words.com] API.
+A random password generator using the [What3Words](https://what3words.com) API.
 
 The tool picks a random location to get 3 random words and uses this to create a randomised password.
 
