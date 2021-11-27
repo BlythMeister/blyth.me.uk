@@ -44,6 +44,8 @@ More information on these projects can be found on the dedicated page: [My Softw
 * [cake-build/cake](https://github.com/cake-build/cake/commits?author=BlythMeister) - Cake build
 * [DotNetAnalyzers/StyleCopAnalyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/commits?author=BlythMeister) - StyleCop DotNet analyser
 * [gitextensions/gitextensions](https://github.com/gitextensions/gitextensions/commits?author=BlythMeister) - GitExtensions graphical git client
+* [patriksvensson/cupboard](https://github.com/patriksvensson/cupboard/commits?author=BlythMeister) - Cupboard machine setup framework
+* [cake-contrib/Cake.BuildSystems.Module](https://github.com/cake-contrib/Cake.BuildSystems.Module/commits?author=BlythMeister) - Cake build system module
 
 ## Non-Code Contributor
 
