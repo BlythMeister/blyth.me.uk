@@ -64,6 +64,8 @@ A stats heavy watch face for Fitbit devices.
 
 GitHub: <https://github.com/BlythMeister/Fitbit-Overview-Face>
 
+Website: <https://fitbit-overview.blyth.me.uk>
+
 Fitbit Gallery: <https://gallery.fitbit.com/details/7c4f7506-8ed8-4eb9-84e3-28b85671f26b>
 
 Download: Use the FitBit app on your phone to view the gallery listing
