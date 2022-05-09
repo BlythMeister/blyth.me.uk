@@ -20,7 +20,7 @@ Gallifrey will allow you to become a Jira time lord!
 
 GitHub: <https://github.com/BlythMeister/Gallifrey>
 
-Website: <https://gallifreyapp.co.uk>
+Website: <https://gallifrey.blyth.me.uk>
 
 Download: Links on website, app auto updates
 
@@ -74,6 +74,8 @@ Keep your desktop fresh with these high definition images.
 
 GitHub: <https://github.com/BlythMeister/BingImageDowload>
 
+Website: <https://bing-images.blyth.me.uk>
+
 Nuget (dotnet tool): <https://www.nuget.org/packages/BingImageDownload>
 
 ### What3Passwords
@@ -83,6 +85,8 @@ A random password generator using the [What3Words](https://what3words.com) API.
 The tool picks a random location to get 3 random words and uses this to create a randomised password.
 
 GitHub: <https://github.com/BlythMeister/What3Passwords>
+
+Website: <https://what-three-passwords.blyth.me.uk>
 
 Nuget (dotnet tool): <https://www.nuget.org/packages/What3Passwords>
 
