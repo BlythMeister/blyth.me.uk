@@ -30,6 +30,8 @@ Paket chain is a tool to help join paket commands together and ease your use of 
 
 GitHub: <https://github.com/BlythMeister/PaketChain>
 
+Website: <https://paket-chain.blyth.me.uk>
+
 Nuget (dotnet tool): <https://www.nuget.org/packages/PaketChain>
 
 ### Doser
@@ -37,6 +39,8 @@ Nuget (dotnet tool): <https://www.nuget.org/packages/PaketChain>
 Doser is a dotnet tool to call urls in bulk to perform testing of uptime.
 
 GitHub: <https://github.com/BlythMeister/Doser>
+
+Website: <https://doser.blyth.me.uk>
 
 Nuget (dotnet tool): <https://www.nuget.org/packages/Doser>
 
