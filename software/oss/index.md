@@ -48,6 +48,7 @@ More information on these projects can be found on the dedicated page: [My Softw
 * [patriksvensson/cupboard](https://github.com/patriksvensson/cupboard/commits?author=BlythMeister) - Cupboard machine setup framework
 * [cake-contrib/Cake.BuildSystems.Module](https://github.com/cake-contrib/Cake.BuildSystems.Module/commits?author=BlythMeister) - Cake build system module
 * [codecadwallader/codemaid](https://github.com/codecadwallader/codemaid/commits?author=BlythMeister) - CodeMaid Visual studio extension
+* [datreeio/datree](https://github.com/datreeio/datree/commits?author=BlythMeister) - Datree Kubernetes YAML validator
 
 ## Non-Code Contributor
 
