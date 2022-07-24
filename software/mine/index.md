@@ -52,7 +52,7 @@ It takes the key concepts from the original, but is re-packaged for .net standar
 
 It also extends upon the original to output nicer formatted HTML & Text for you to display within applications.
 
-GitHub: <https://github.com/BlythMeister/google-diff-match-patch
+GitHub: <https://github.com/BlythMeister/google-diff-match-patch>
 
 Website: <https://diff-match-patch.blyth.me.uk>
 
