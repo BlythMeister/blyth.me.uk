@@ -134,6 +134,10 @@ body {
     border-top: 1px solid grey;
 }
 
+.icons-header {
+    padding-left: 5px;
+}
+
 .fab {
     padding-top: 6px;
     font-size: 18px;
@@ -210,11 +214,6 @@ a.far:hover {
 .fab.fa-youtube {
     background: #FF0000;
     color: #FFFFFF;
-}
-
-.fab.fa-keybase {
-    background: #E9ECE9;
-    color: #495057;
 }
 
 .fab.fa-facebook-f {
