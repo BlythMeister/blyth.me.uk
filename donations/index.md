@@ -7,13 +7,13 @@ description: "Supporter, Goodwill, Thank you or any other types of donation"
 
 ### Donation Methods
 
-#### Buy Me A Coffee
+#### Buy Me A Coffee (Fixed Amount)
 
 I have a [Buy Me A Coffee site](https://www.buymeacoffee.com/blythmeister)
 
 Buy Me A Coffee accepts donations in the denomination of "cups of coffee" priced at £3. - You can donate between 1 and 3 cups.
 
-#### PayPal or Stripe
+#### PayPal or Stripe (Variable Amount)
 
 Donations of any amount in your chosen currency.
  
