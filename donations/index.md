@@ -18,9 +18,9 @@ Buy Me A Coffee accepts donations in the denomination of "cups of coffee" priced
 Donations of any amount in your chosen currency.
  
 * [PayPal](https://www.paypal.me/BlythMeister) - requires PayPal account, choose your currency.
-* [Stripe (GBP/£)](https://donate.stripe.com/4gw9Bzgyh0a03yo8ww) - no sign-up, GBP/£ only.
-* [Stripe (USD/$)](https://donate.stripe.com/aEUfZXdm5aOE7OE8wx) - no sign-up, USD/$ only.
-* [Stripe (EUR/€)](https://donate.stripe.com/4gwcNLgyh9KA1qg6oq) - no sign-up, EUR/€ only.
+* [Stripe (GBP/£)](https://donate.stripe.com/4gw9Bzgyh0a03yo8ww) - no sign-up & various payment methods supported, GBP/£ only.
+* [Stripe (USD/$)](https://donate.stripe.com/aEUfZXdm5aOE7OE8wx) - no sign-up & various payment methods supported, USD/$ only.
+* [Stripe (EUR/€)](https://donate.stripe.com/4gwcNLgyh9KA1qg6oq) - no sign-up & various payment methods supported, EUR/€ only.
 
 ### Why Donate
 
