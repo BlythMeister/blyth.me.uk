@@ -22,6 +22,8 @@ Donations of any amount in your chosen currency.
 * [Stripe (USD/$)](https://donate.stripe.com/aEUfZXdm5aOE7OE8wx) - no sign-up & various payment methods supported, USD/$ only.
 * [Stripe (EUR/€)](https://donate.stripe.com/4gwcNLgyh9KA1qg6oq) - no sign-up & various payment methods supported, EUR/€ only.
 
+_Feel free to contact me for stripe payments in a different currency and I can generate a link to add above._
+
 ### Why Donate
 
 Why do i even have this page for donations? - I have listed a few reasons as to why donations are so useful.
