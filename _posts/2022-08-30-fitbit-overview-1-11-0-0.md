@@ -1,14 +1,14 @@
 ---
-title: Fitbit Overview Release Version 1.11.0
+title: FitBit Overview Release Version 1.11.0
 date: 2022-08-30 12:00:00 +0100
 excerpt: Version 1.11.0 has been released now
-tags: [release, Fitbit, overview]
+tags: [release, fitbit, overview]
 show: true
 ---
 
 ## Details
 
-Version 1.11.0 of the [Fitbit overview watch face](https://gallery.fitbit.com/details/7c4f7506-8ed8-4eb9-84e3-28b85671f26b) has been released and is available now.
+Version 1.11.0 of the [FitBit overview watch face](https://gallery.fitbit.com/details/7c4f7506-8ed8-4eb9-84e3-28b85671f26b) has been released and is available now.
 
 ## What's New
 
@@ -22,7 +22,7 @@ The settings page has had a layout change to try and make it flow better.
 
 ### Versa, Versa Lite & Versa 2
 
-These models have been moved into the "deprecated" version as Fitbit are no longer producing new versions.
+These models have been moved into the "deprecated" version as FitBit are no longer producing new versions.
 
 However, bug fixes and things that are easy to backport from the newer devices will still be released.
 
