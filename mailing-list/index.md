@@ -1,9 +1,9 @@
 ---
-title: Subscriptions
+title: Mailing List
 description: "Subscribe to my mailing list"
 ---
 
-## Subscriptions
+## SUbscribe To My Mailing List
 
 I have a mailing list that I notify when new versions of apps or libraries are released as well as when I post a new blog.
 
