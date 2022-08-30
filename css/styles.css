@@ -240,3 +240,21 @@ a.far:hover {
     background: #F4F1EA;
     color: #372213;
 }
+
+@media (max-width:990px) {
+    .gist {
+        display: none;
+    }
+}
+
+@media (min-width:991px) and (max-width:1200px) {
+    .gist {
+        max-width: 600px;
+    }
+}
+
+@media (min-width:1201px) {
+    .gist {
+        max-width: 800px;
+    }
+}
