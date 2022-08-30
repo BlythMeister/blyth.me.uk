@@ -30,4 +30,9 @@ Why do i even have this page for donations? - I have listed a few reasons as to 
 
 * Donations are a great way to sponsor future development on existing or new products.
 * Donations help with the ongoing running costs of existing platforms.
+* Donations means that I know who my users are so can keep you informed of updates.
 * Most of the software I publish is completely free to use but has taken a lot of time to create. - A small "thank you" donation for a cup of coffee goes a long way :)
+
+### Donations Not Licences
+
+The donation model offered by my software is not an offer of lifetime support for your single donation.
