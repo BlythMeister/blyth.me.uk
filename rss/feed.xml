@@ -11,10 +11,18 @@ layout: none
 		{% for post in site.posts %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
-				<description>{{ post.excerpt | xml_escape }}</description>
+				<summary>{{ post.excerpt | xml_escape }}</summary>
+                                <description>{{ post.content | xml_escape }}</description>
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				{% assign post_image = post.image.path | default: post.image %}
+				{% if post_image %}
+					{% unless post_image contains "://" %}
+						{% assign post_image = post_image | absolute_url %}
+					{% endunless %}
+                                        <media:thumbnail>{{ post_image | xml_escape }}"< /media:thumbnail>
+				{% endif %}
 			</item>
 		{% endfor %}
 	</channel>
