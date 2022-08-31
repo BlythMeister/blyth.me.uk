@@ -26,7 +26,7 @@
     </div>
 </div>
 <div class="bottomItem">
-    <h4>Recent Posts <a href="{{ site.url }}/feed.xml" class="fas fa-rss"></a></h4>
+    <h4>Recent Posts <a href="{{ site.url }}/rss" class="fas fa-rss"></a></h4>
     {% assign publishedPosts = site.posts | where: 'show', 'true' %}
     {% for post in publishedPosts  limit:5 %}
     <div class="media {% if forloop.last == false %}media-underline{% endif %}">
