@@ -7,20 +7,32 @@ description: "Supporter, Goodwill, Thank you or any other types of donation"
 
 ### Donation Methods
 
-#### Buy Me A Coffee (Fixed Amount)
+I have various different ways to receive donations which include fixed and variable amounts and use a variety of services some of which do not require sign-up.
 
-I have a [Buy Me A Coffee site](https://www.buymeacoffee.com/blythmeister)
+#### Buy Me A Coffee (£3, £6 or £9)
 
-Buy Me A Coffee accepts donations in the denomination of "cups of coffee" priced at £3. - You can donate between 1 and 3 cups.
+[Buy Me A Coffee site](https://www.buymeacoffee.com/blythmeister)
 
-#### PayPal or Stripe (Variable Amount)
+Pay for the coffee using PayPal or any credit/debit card.
 
-Donations of any amount in your chosen currency.
- 
-* [PayPal](https://www.paypal.me/BlythMeister) - requires PayPal account, choose your currency.
-* [Stripe (GBP/£)](https://donate.stripe.com/4gw9Bzgyh0a03yo8ww) - no sign-up & various payment methods supported, GBP/£ only.
-* [Stripe (USD/$)](https://donate.stripe.com/aEUfZXdm5aOE7OE8wx) - no sign-up & various payment methods supported, USD/$ only.
-* [Stripe (EUR/€)](https://donate.stripe.com/4gwcNLgyh9KA1qg6oq) - no sign-up & various payment methods supported, EUR/€ only.
+No sign-up required.
+
+#### PayPal (Variable Amount)
+
+[PayPal link](https://www.paypal.me/BlythMeister)
+
+Requires PayPal account but allows for a donation of any amount in your chosen currency.
+
+#### Stripe (Variable Amount)
+
+There are currently 3 stripe currencies:
+
+* [GBP/£](https://donate.stripe.com/4gw9Bzgyh0a03yo8ww)
+* [USD/$](https://donate.stripe.com/aEUfZXdm5aOE7OE8wx)
+* [EUR/€](https://donate.stripe.com/4gwcNLgyh9KA1qg6oq)
+
+No sign-up and allows for donation of any amount.
+Supports credit/debit card, apple pay, Google pay, WeChat and many more!
 
 _Feel free to contact me for stripe payments in a different currency and I can generate a link to add above._
 
