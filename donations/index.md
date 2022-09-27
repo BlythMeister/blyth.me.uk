@@ -23,18 +23,17 @@ No sign-up required.
 
 Requires PayPal account but allows for a donation of any amount in your chosen currency.
 
-#### Stripe (Variable Amount)
+#### Credit/Debit Card, Apple Pay & Google Pay (Variable Amount)
 
-There are currently 3 stripe currencies:
+There are currently 3 supported currencies:
 
 * [GBP/£](https://donate.stripe.com/4gw9Bzgyh0a03yo8ww)
 * [USD/$](https://donate.stripe.com/aEUfZXdm5aOE7OE8wx)
 * [EUR/€](https://donate.stripe.com/4gwcNLgyh9KA1qg6oq)
 
 No sign-up and allows for donation of any amount.
-Supports credit/debit card, apple pay, Google pay, WeChat and many more!
 
-_Feel free to contact me for stripe payments in a different currency and I can generate a link to add above._
+_Feel free to contact me for links in a different currency and I can generate a link to add above._
 
 ### Why Donate
 
