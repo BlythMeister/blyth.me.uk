@@ -14,4 +14,4 @@ Version 1.12.1 of the [Fitbit overview watch face](https://gallery.Fitbit.com/de
 
 This release only makes changes to the Versa 3 & Sense watch faces.
 
-In thia release the only changes are some minor bug fixes to the settings page in the app and handling of "keep alive" messages. 
+In this release the only changes are some minor bug fixes to the settings page in the app and handling of "keep alive" messages. 
