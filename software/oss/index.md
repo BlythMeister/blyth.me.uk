@@ -50,7 +50,7 @@ More information on these projects can be found on the dedicated page: [My Softw
 * [codecadwallader/codemaid](https://github.com/codecadwallader/codemaid/commits?author=BlythMeister) - CodeMaid Visual studio extension
 * [datreeio/datree](https://github.com/datreeio/datree/commits?author=BlythMeister) - Datree Kubernetes YAML validator
 * [evryfs/helm-charts](https://github.com/evryfs/helm-charts/commits?author=BlythMeister) - Helm charts for dependency track application 
-<!-- Unmerged PR (https://github.com/CycloneDX/cyclonedx-dotnet/pull/600) * [CycloneDX/cyclonedx-dotnet](https://github.com/CycloneDX/cyclonedx-dotnet/commits?author=BlythMeister) - dotnet tool to generate SBOM files  -->
+* [CycloneDX/cyclonedx-dotnet](https://github.com/CycloneDX/cyclonedx-dotnet/commits?author=BlythMeister) - dotnet tool to generate SBOM files
 
 ## Non-Code Contributor
 
