@@ -51,6 +51,7 @@ More information on these projects can be found on the dedicated page: [My Softw
 * [datreeio/datree](https://github.com/datreeio/datree/commits?author=BlythMeister) - Datree Kubernetes YAML validator
 * [evryfs/helm-charts](https://github.com/evryfs/helm-charts/commits?author=BlythMeister) - Helm charts for dependency track application 
 * [CycloneDX/cyclonedx-dotnet](https://github.com/CycloneDX/cyclonedx-dotnet/commits?author=BlythMeister) - dotnet tool to generate SBOM files
+* [chocolatey-community/chocolatey-packages](https://github.com/chocolatey-community/chocolatey-packages/commits?author=BlythMeister) - Community chocolatey packages
 
 ## Non-Code Contributor
 
