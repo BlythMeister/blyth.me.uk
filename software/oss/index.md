@@ -52,6 +52,8 @@ More information on these projects can be found on the dedicated page: [My Softw
 * [evryfs/helm-charts](https://github.com/evryfs/helm-charts/commits?author=BlythMeister) - Helm charts for dependency track application 
 * [CycloneDX/cyclonedx-dotnet](https://github.com/CycloneDX/cyclonedx-dotnet/commits?author=BlythMeister) - dotnet tool to generate SBOM files
 * [chocolatey-community/chocolatey-packages](https://github.com/chocolatey-community/chocolatey-packages/commits?author=BlythMeister) - Community chocolatey packages
+* [MihaMarkic/Cake.Docker](https://github.com/MihaMarkic/Cake.Docker/commits?author=BlythMeister) - Cake docker module
+* [jordigg/chocolatey-officebusiness](https://github.com/jordigg/chocolatey-officebusiness/commits?author=BlythMeister) - Chocolatey package
 
 ## Non-Code Contributor
 
@@ -59,3 +61,4 @@ More information on these projects can be found on the dedicated page: [My Softw
 * [mausch/Fleece](https://github.com/mausch/Fleece/commits?author=BlythMeister) - Json mapper
 * [spectresystems/jarvis](https://github.com/spectresystems/jarvis/commits?author=BlythMeister) - Desktop assistant
 * [up-for-grabs/up-for-grabs.net](https://github.com/up-for-grabs/up-for-grabs.net/commits?author=BlythMeister) - A catalog of OSS repositories with "up-for-grabs" items
+* [Bogdanp/awesome-advent-of-code](https://github.com/Bogdanp/awesome-advent-of-code/commits?author=BlythMeister) - Advent of code
