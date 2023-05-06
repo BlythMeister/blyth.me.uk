@@ -246,7 +246,14 @@ a.far:hover {
 }
 
 .fab.fa-ebay {
-    background: #86B817;
+    /*background: #86B817;*/
+    background: repeating-linear-gradient(
+        to right,
+        #E53238 25%,
+        #0064D2 25%,
+        #F5AF02 25%,
+        #86B817 25%
+    );
     color: #FFFFFF;
 }
 
