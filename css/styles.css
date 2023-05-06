@@ -245,6 +245,11 @@ a.far:hover {
     color: #372213;
 }
 
+.fab.fa-ebay {
+    background: #86B817;
+    color: #FFFFFF;
+}
+
 @media (max-width:990px) {
     .gist {
         display: none;
