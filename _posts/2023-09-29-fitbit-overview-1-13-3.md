@@ -1,6 +1,6 @@
 ---
 title: Fitbit Overview Release Version 1.13.3
-date: 2023-09-29 16:30:00 +0100
+date: 2023-09-29 15:00:00 +0100
 excerpt: Version 1.13.3 has been released now
 tags: [release, Fitbit, overview]
 show: true
