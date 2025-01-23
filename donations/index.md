@@ -23,17 +23,6 @@ No sign-up and allows for donation of any amount.
 
 _Feel free to contact me for links in a different currency and I can generate a link to add above._
 
-### Crypto Currency (Any Amount)
-
-I can accept most crypto currency, some popular currency addresses:
-
-* Bitcoin (BTC) - 3H9GYM9g1xg79fDxikBH7S5xZzQLm7eDJ7
-* Dogecoin (DOGE) - DPKqSV4BkSwU73H3BSg385QDyUyZyFQifv
-* Ethereum (ETH) - 0xE73f2591E88619090D2be8fd08BCba4d7361f9c5
-* Solana (SOL) - 2J5K9qaBVu78JdkLcwKabSF5i4y6pzFVXCm5WtiCd4P8
-
-_Feel free to contact me for wallet in other crypto currency._
-
 ### Buy Me A Coffee (£3, £6 or £9)
 
 [Buy Me A Coffee site](https://www.buymeacoffee.com/blythmeister)
