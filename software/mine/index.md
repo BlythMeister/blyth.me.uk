@@ -24,6 +24,18 @@ Website: <https://gallifrey.blyth.me.uk>
 
 Download: Links on website, app auto updates
 
+### ClockifyCli
+
+A command line tool to manage your time entries and projects in Clockify. 
+
+This tool can be used to list, start, stop, and edit time entries directly from your terminal. It simplifies the process of interacting with the Clockify API, making it easy to track your work. 
+
+GitHub: <https://github.com/BlythMeister/ClockifyCli>
+
+Website: <https://clockify-cli.blyth.me.uk>
+
+Nuget (dotnet tool): <https://www.nuget.org/packages/ClockifyCli>
+
 ### Paket Chain
 
 Paket chain is a tool to help join paket commands together and ease your use of the paket tool.
