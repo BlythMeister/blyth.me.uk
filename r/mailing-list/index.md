@@ -1,4 +1,4 @@
 ---
 title: Join Mailing List
-redirect_to: https://subscribepage.io/GME5E3
+redirect_to: gme5e3.subscribepage.io
 ---
