@@ -18,7 +18,8 @@ Donation currencies:
 * [GBP/£](https://donate.stripe.com/4gw9Bzgyh0a03yo8ww)
 * [USD/$](https://donate.stripe.com/aEUfZXdm5aOE7OE8wx)
 * [EUR/€](https://donate.stripe.com/4gwcNLgyh9KA1qg6oq)
-
+* [Monthly Subscription](https://donate.stripe.com/28EdR8gJU3LzaCX0kk4ko03)
+  
 No sign-up and allows for donation of any amount.
 
 _Feel free to contact me for links in a different currency and I can generate a link to add above._
