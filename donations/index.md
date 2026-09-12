@@ -5,21 +5,6 @@ description: "Supporter, Goodwill, Thank you or any other types of donation"
 
 ## Donations
 
-### One Off
-
-Donate in your currency
-
-* [Pound sterling](https://donate.stripe.com/4gw9Bzgyh0a03yo8ww)
-* [US Dollars](https://donate.stripe.com/aEUfZXdm5aOE7OE8wx)
-* [Euro](https://donate.stripe.com/4gwcNLgyh9KA1qg6oq)
-* [South Korean won](https://donate.stripe.com/bJe9ASctE95Th1l1oo4ko05)
-* [Chinese Yuan / Renminbi](https://donate.stripe.com/bJe5kCgJU4PD7qL8QQ4ko04)
-* [United Arab Emirates dirham](https://donate.stripe.com/5kQcN40KWgylh1l9UU4ko09)
-* [Australian Dollar](https://donate.stripe.com/9B6cN48doa9XaCX5EE4ko0b)
-* [Brazilian real](https://donate.stripe.com/5kQ9ASfFQ6XLbH1c324ko0c)
-* [Canadian Dollars](https://donate.stripe.com/14AcN4eBM0zn7qLc324ko0d)
-* [Swiss franc](https://donate.stripe.com/bJebJ01P06XL6mH0kk4ko0e)
-
 ### Monthly
 
 [Monthly Subscription Setup](https://donate.stripe.com/28EcN4fFQbe112n8QQ4ko08)
@@ -30,9 +15,34 @@ Multiple currencies available
 
 Cancel any time, no cooling off period.
 
+### One Off
+
+Donate in your currency
+
+* [Australian Dollar](https://donate.stripe.com/9B6cN48doa9XaCX5EE4ko0b)
+* [Brazilian real](https://donate.stripe.com/5kQ9ASfFQ6XLbH1c324ko0c)
+* [Canadian Dollars](https://donate.stripe.com/14AcN4eBM0zn7qLc324ko0d)
+* [Chinese Yuan / Renminbi](https://donate.stripe.com/bJe5kCgJU4PD7qL8QQ4ko04)
+* [Euro](https://donate.stripe.com/4gwcNLgyh9KA1qg6oq)
+* [Hong Kong Dollar](https://donate.stripe.com/00wcN4bpA1Drh1l8QQ4ko0f)
+* [Japanese yen](https://donate.stripe.com/eVqeVcalweqdeTdffe4ko0h)
+* [Mexican peso](https://donate.stripe.com/7sY7sK0KWgyl7qL6II4ko0i)
+* [New Zealand dollar](https://donate.stripe.com/9B67sK79kbe18uP4AA4ko0k)
+* [Norwegian Krone](https://donate.stripe.com/6oU8wO65gdm98uP6II4ko0j)
+* [Polish złoty](https://donate.stripe.com/00w4gyctEa9XcL5c324ko0l)
+* [Pound sterling](https://donate.stripe.com/4gw9Bzgyh0a03yo8ww)
+* [Rupee](https://donate.stripe.com/8x2bJ08doci512ngji4ko0g)
+* [Russian ruble](https://donate.stripe.com/28E4gyalwa9Xh1ld764ko0m)
+* [Singapore dollar](https://donate.stripe.com/00w8wO3X8dm99yTd764ko0n)
+* [South African rand](https://donate.stripe.com/9B6dR8ctE81Ph1l6II4ko0o)
+* [South Korean won](https://donate.stripe.com/bJe9ASctE95Th1l1oo4ko05)
+* [Swiss franc](https://donate.stripe.com/bJebJ01P06XL6mH0kk4ko0e)
+* [US Dollars](https://donate.stripe.com/aEUfZXdm5aOE7OE8wx)
+* [United Arab Emirates dirham](https://donate.stripe.com/5kQcN40KWgylh1l9UU4ko09)
+
 ### Buy Me A Coffee (£3, £6 or £9)
 
-[Buy Me A Coffee site](https://www.buymeacoffee.com/blythmeister)
+[Buy Me A Coffee](https://www.buymeacoffee.com/blythmeister)
 
 Pay for the coffee using PayPal or any credit/debit card.
 
