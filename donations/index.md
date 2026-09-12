@@ -15,7 +15,7 @@ description: "Supporter, Goodwill, Thank you or any other types of donation"
 
 ### Monthly
 
-[Monthly Subscription Setup](https://donate.stripe.com/28EdR8gJU3LzaCX0kk4ko03)
+[Monthly Subscription Setup](https://donate.stripe.com/28EcN4fFQbe112n8QQ4ko08)
 
 Subscribe to multiple "units" for larger subscriptions.
 
