@@ -7,17 +7,26 @@ description: "Supporter, Goodwill, Thank you or any other types of donation"
 
 ### One Off
 
-* [GBP/£](https://donate.stripe.com/4gw9Bzgyh0a03yo8ww)
-* [USD/$](https://donate.stripe.com/aEUfZXdm5aOE7OE8wx)
-* [EUR/€](https://donate.stripe.com/4gwcNLgyh9KA1qg6oq)
-* [KRW/₩](https://donate.stripe.com/bJe9ASctE95Th1l1oo4ko05)
-* [CNY/¥](https://donate.stripe.com/bJe5kCgJU4PD7qL8QQ4ko04)
+Donate in your currency
+
+* [Pound sterling](https://donate.stripe.com/4gw9Bzgyh0a03yo8ww)
+* [US Dollars](https://donate.stripe.com/aEUfZXdm5aOE7OE8wx)
+* [Euro](https://donate.stripe.com/4gwcNLgyh9KA1qg6oq)
+* [South Korean won](https://donate.stripe.com/bJe9ASctE95Th1l1oo4ko05)
+* [Chinese Yuan / Renminbi](https://donate.stripe.com/bJe5kCgJU4PD7qL8QQ4ko04)
+* [United Arab Emirates dirham](https://donate.stripe.com/5kQcN40KWgylh1l9UU4ko09)
+* [Australian Dollar](https://donate.stripe.com/9B6cN48doa9XaCX5EE4ko0b)
+* [Brazilian real](https://donate.stripe.com/5kQ9ASfFQ6XLbH1c324ko0c)
+* [Canadian Dollars](https://donate.stripe.com/14AcN4eBM0zn7qLc324ko0d)
+* [Swiss franc](https://donate.stripe.com/bJebJ01P06XL6mH0kk4ko0e)
 
 ### Monthly
 
 [Monthly Subscription Setup](https://donate.stripe.com/28EcN4fFQbe112n8QQ4ko08)
 
-Subscribe to multiple "units" for larger subscriptions.
+Subscribe to multiple for larger subscriptions.
+
+Multiple currencies available
 
 Cancel any time, no cooling off period.
 
