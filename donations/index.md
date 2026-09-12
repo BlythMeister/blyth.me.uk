@@ -7,8 +7,6 @@ description: "Supporter, Goodwill, Thank you or any other types of donation"
 
 ### One Off
 
-Donation currencies:
-
 * [GBP/£](https://donate.stripe.com/4gw9Bzgyh0a03yo8ww)
 * [USD/$](https://donate.stripe.com/aEUfZXdm5aOE7OE8wx)
 * [EUR/€](https://donate.stripe.com/4gwcNLgyh9KA1qg6oq)
@@ -16,7 +14,11 @@ Donation currencies:
 
 ### Monthly
 
-* [Monthly Subscription](https://donate.stripe.com/28EdR8gJU3LzaCX0kk4ko03)
+[Monthly Subscription Setup](https://donate.stripe.com/28EdR8gJU3LzaCX0kk4ko03)
+
+Subscribe to multiple "units" for larger subscriptions.
+
+Cancel any time, no cooling off period.
 
 ### Buy Me A Coffee (£3, £6 or £9)
 
