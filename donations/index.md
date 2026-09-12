@@ -11,6 +11,7 @@ description: "Supporter, Goodwill, Thank you or any other types of donation"
 * [USD/$](https://donate.stripe.com/aEUfZXdm5aOE7OE8wx)
 * [EUR/€](https://donate.stripe.com/4gwcNLgyh9KA1qg6oq)
 * [KRW/₩](https://donate.stripe.com/bJe9ASctE95Th1l1oo4ko05)
+* [CNY/¥](https://donate.stripe.com/bJe5kCgJU4PD7qL8QQ4ko04)
 
 ### Monthly
 
