@@ -1,7 +1,7 @@
 ---
 title: Pivoting from Fitbit to Amazfit
 date: 2026-09-14 21:00:00 +0100
-excerpt: A New Chapter on My Wrist: Pivoting from Fitbit to Amazfit
+excerpt: A New Chapter on My Wrist - Pivoting from Fitbit to Amazfit
 tags: [breaking, Fitbit, overview, Amazfit]
 show: true
 ---
