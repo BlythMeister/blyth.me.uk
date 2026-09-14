@@ -32,6 +32,27 @@ List, start, stop, and edit time entries directly from your shell without leavin
 
 ---
 
+### Wearables & Watch Faces
+
+#### [Amazfit Watchfaces](https://amazfit-watchfaces.blyth.me.uk)
+> **Custom, data-dense digital faces designed for Amazfit smartwatches.**
+
+A collection of custom watch faces built for high readability, data metrics, and battery efficiency on Amazfit hardware.
+
+- **Links:** [Website](https://amazfit-watchfaces.blyth.me.uk) · [Source (GitHub)](https://github.com/BlythMeister/Amazfit-Watchfaces)
+- **Install:** Sideload via [amazfitwatchfaces.com](https://amazfitwatchfaces.com) or install via the Zepp app.
+
+---
+
+#### [Fitbit Overview Watch Face](https://fitbit-overview.blyth.me.uk)
+> **Stats-heavy glanceable display for Fitbit devices.**
+
+Packed with daily fitness metrics, battery level, active zone minutes, heart rate, and step goal rings.
+
+- **Links:** [Website](https://fitbit-overview.blyth.me.uk) · [Source (GitHub)](https://github.com/BlythMeister/Fitbit-Overview-Face) · [Fitbit Gallery Listing](https://gallery.fitbit.com/details/7c4f7506-8ed8-4eb9-84e3-28b85671f26b)
+
+---
+
 ### Developer Tools & CLIs
 
 #### [Paket Chain](https://paket-chain.blyth.me.uk)
@@ -92,27 +113,6 @@ Repackaged for modern .NET runtimes with an ergonomic API surface and built-in f
 An Azure Function + Azure Service Bus pipeline that receives external webhooks and relays them safely down to an internal agent running behind private firewalls.
 
 - **Links:** [Source (GitHub)](https://github.com/BlythMeister/WebhookRelay.net)
-
----
-
-### Wearables & Watch Faces
-
-#### [Amazfit Watchfaces](https://amazfit-watchfaces.blyth.me.uk)
-> **Custom, data-dense digital faces designed for Amazfit smartwatches.**
-
-A collection of custom watch faces built for high readability, data metrics, and battery efficiency on Amazfit hardware.
-
-- **Links:** [Website](https://amazfit-watchfaces.blyth.me.uk) · [Source (GitHub)](https://github.com/BlythMeister/Amazfit-Watchfaces)
-- **Install:** Sideload via [amazfitwatchfaces.com](https://amazfitwatchfaces.com) or install via the Zepp app.
-
----
-
-#### [Fitbit Overview Watch Face](https://fitbit-overview.blyth.me.uk)
-> **Stats-heavy glanceable display for Fitbit devices.**
-
-Packed with daily fitness metrics, battery level, active zone minutes, heart rate, and step goal rings.
-
-- **Links:** [Website](https://fitbit-overview.blyth.me.uk) · [Source (GitHub)](https://github.com/BlythMeister/Fitbit-Overview-Face) · [Fitbit Gallery Listing](https://gallery.fitbit.com/details/7c4f7506-8ed8-4eb9-84e3-28b85671f26b)
 
 ---
 
