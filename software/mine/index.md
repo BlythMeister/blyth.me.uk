@@ -6,150 +6,120 @@ redirect_from: "/software/"
 
 ## My Apps & Software
 
-I have a few open source software projects, this is where I catalog them all.
+A collection of open-source projects, CLI tools, libraries, and custom watch faces. Contributions, issues, and PRs are always welcome.
 
-Feel free to use and contribute to them.
+---
 
-### Gallifrey
+### Time Tracking
 
-Gallifrey is a Jira work logging companion.
+#### [Gallifrey](https://gallifrey.blyth.me.uk)
+> **Jira work logging companion and time-tracking desktop app.**
 
-Essentially a big stop watch app, but with direct integration, to you, Jira portal for logging your hours worked and remaining estimates.
+Essentially a big stopwatch app with direct Jira integration to log hours worked and manage remaining estimates without opening the web portal. Become a Jira time lord!
 
-Gallifrey will allow you to become a Jira time lord!
+- **Links:** [Website](https://gallifrey.blyth.me.uk) · [Source (GitHub)](https://github.com/BlythMeister/Gallifrey)
+- **Install:** Direct download via the website (includes auto-updates).
 
-GitHub: <https://github.com/BlythMeister/Gallifrey>
+---
 
-Website: <https://gallifrey.blyth.me.uk>
+#### [ClockifyCli](https://clockify-cli.blyth.me.uk)
+> **Cross-platform terminal client for Clockify time tracking.**
 
-Download: Links on website, app auto updates
+List, start, stop, and edit time entries directly from your shell without leaving your terminal or switching contexts.
 
-### ClockifyCli
+- **Links:** [Website](https://clockify-cli.blyth.me.uk) · [Source (GitHub)](https://github.com/BlythMeister/ClockifyCli) · [NuGet](https://www.nuget.org/packages/ClockifyCli)
+- **Install:** `dotnet tool install --global ClockifyCli`
 
-A command line tool to manage your time entries and projects in Clockify. 
+---
 
-This tool can be used to list, start, stop, and edit time entries directly from your terminal. It simplifies the process of interacting with the Clockify API, making it easy to track your work. 
+### Developer Tools & CLIs
 
-GitHub: <https://github.com/BlythMeister/ClockifyCli>
+#### [Paket Chain](https://paket-chain.blyth.me.uk)
+> **Fluent command chainer and automation utility for Paket.**
 
-Website: <https://clockify-cli.blyth.me.uk>
+Simplifies calling Paket across project folders and chains commands together to streamline dependency workflows.
 
-Nuget (dotnet tool): <https://www.nuget.org/packages/ClockifyCli>
+- **Links:** [Website](https://paket-chain.blyth.me.uk) · [Source (GitHub)](https://github.com/BlythMeister/PaketChain) · [NuGet](https://www.nuget.org/packages/PaketChain)
+- **Install:** `dotnet tool install --global PaketChain`
 
-### Paket Chain
+---
 
-Paket chain is a tool to help join paket commands together and ease your use of the paket tool.
+#### [Doser](https://doser.blyth.me.uk)
+> **Lightweight CLI uptime and stress testing utility.**
 
-GitHub: <https://github.com/BlythMeister/PaketChain>
+A dotnet CLI tool to call URLs in bulk to benchmark endpoint responsiveness, warm up services, and verify uptime.
 
-Website: <https://paket-chain.blyth.me.uk>
+- **Links:** [Website](https://doser.blyth.me.uk) · [Source (GitHub)](https://github.com/BlythMeister/Doser) · [NuGet](https://www.nuget.org/packages/Doser)
+- **Install:** `dotnet tool install --global Doser`
 
-Nuget (dotnet tool): <https://www.nuget.org/packages/PaketChain>
+---
 
-### Doser
+#### [What3Passwords](https://what-three-passwords.blyth.me.uk)
+> **Memorable, high-entropy password generator.**
 
-Doser is a dotnet tool to call urls in bulk to perform testing of uptime.
+Picks a random global location via the [What3Words](https://what3words.com) API to generate randomized, secure, and human-readable 3-word passwords.
 
-GitHub: <https://github.com/BlythMeister/Doser>
+- **Links:** [Website](https://what-three-passwords.blyth.me.uk) · [Source (GitHub)](https://github.com/BlythMeister/What3Passwords) · [NuGet](https://www.nuget.org/packages/What3Passwords)
+- **Install:** `dotnet tool install --global What3Passwords`
 
-Website: <https://doser.blyth.me.uk>
+---
 
-Nuget (dotnet tool): <https://www.nuget.org/packages/Doser>
+#### [Bing Image Downloader](https://bing-images.blyth.me.uk)
+> **Automated scraper for daily Bing desktop wallpapers.**
 
-### Google Diff-Match-Patch
+Facilitates downloading high-definition featured daily wallpapers from Bing sites worldwide straight into a local folder for rotating desktop backgrounds.
 
-This library is an extension of the Google Diff-Match-Patch C# port. - <https://github.com/google/diff-match-patch>
+- **Links:** [Website](https://bing-images.blyth.me.uk) · [Source (GitHub)](https://github.com/BlythMeister/BingImageDowload) · [NuGet](https://www.nuget.org/packages/BingImageDownload)
+- **Install:** `dotnet tool install --global BingImageDownload`
 
-It takes the key concepts from the original, but is re-packaged for .net standard & in a easier to use framework.
+---
 
-It also extends upon the original to output nicer formatted HTML & Text for you to display within applications.
+### Libraries & Backend
 
-GitHub: <https://github.com/BlythMeister/google-diff-match-patch>
+#### [Google Diff-Match-Patch (.NET)](https://diff-match-patch.blyth.me.uk)
+> **Modernized .NET Standard port of Google's diffing engine.**
 
-Website: <https://diff-match-patch.blyth.me.uk>
+Repackaged for modern .NET runtimes with an ergonomic API surface and built-in formatting extensions to output cleaner HTML and text diffs.
 
-Nuget: <https://www.nuget.org/packages/google-diff-match-patch>
+- **Links:** [Website](https://diff-match-patch.blyth.me.uk) · [Source (GitHub)](https://github.com/BlythMeister/google-diff-match-patch) · [NuGet](https://www.nuget.org/packages/google-diff-match-patch)
+- **Install:** `dotnet add package google-diff-match-patch`
 
-### Fitbit Overview Watch Face
+---
 
-A collection of custom watchfaces for Amazfit devices.
+#### [WebhookRelay.net](https://github.com/BlythMeister/WebhookRelay.net)
+> **Secure inbound webhook proxy for firewalled environments.**
 
-GitHub: <https://github.com/BlythMeister/Amazfit-Watchfaces>
+An Azure Function + Azure Service Bus pipeline that receives external webhooks and relays them safely down to an internal agent running behind private firewalls.
 
-Website: <https://amazfit-watchfaces.blyth.me.uk>
+- **Links:** [Source (GitHub)](https://github.com/BlythMeister/WebhookRelay.net)
 
-Download: Use the Zepp app or sideload using <https://amazfitwatchfaces.com>
+---
 
-### Fitbit Overview Watch Face
+### Wearables & Watch Faces
 
-A stats heavy watch face for Fitbit devices.
+#### [Amazfit Watchfaces](https://amazfit-watchfaces.blyth.me.uk)
+> **Custom, data-dense digital faces designed for Amazfit smartwatches.**
 
-GitHub: <https://github.com/BlythMeister/Fitbit-Overview-Face>
+A collection of custom watch faces built for high readability, data metrics, and battery efficiency on Amazfit hardware.
 
-Website: <https://fitbit-overview.blyth.me.uk>
+- **Links:** [Website](https://amazfit-watchfaces.blyth.me.uk) · [Source (GitHub)](https://github.com/BlythMeister/Amazfit-Watchfaces)
+- **Install:** Sideload via [amazfitwatchfaces.com](https://amazfitwatchfaces.com) or install via the Zepp app.
 
-Fitbit Gallery: <https://gallery.fitbit.com/details/7c4f7506-8ed8-4eb9-84e3-28b85671f26b>
+---
 
-Download: Use the Fitbit app on your phone to view the gallery listing
+#### [Fitbit Overview Watch Face](https://fitbit-overview.blyth.me.uk)
+> **Stats-heavy glanceable display for Fitbit devices.**
 
-### Bing Image Downloader
+Packed with daily fitness metrics, battery level, active zone minutes, heart rate, and step goal rings.
 
-Everyone knows about the worldwide Bing images on the Bing homepage.
+- **Links:** [Website](https://fitbit-overview.blyth.me.uk) · [Source (GitHub)](https://github.com/BlythMeister/Fitbit-Overview-Face) · [Fitbit Gallery Listing](https://gallery.fitbit.com/details/7c4f7506-8ed8-4eb9-84e3-28b85671f26b)
 
-This app facilitates a download of these images from Bing sites around the world.
+---
 
-You can then set this download folder up for desktop wallpapers.
+### Utilities & Fun
 
-Keep your desktop fresh with these high definition images.
-
-GitHub: <https://github.com/BlythMeister/BingImageDowload>
-
-Website: <https://bing-images.blyth.me.uk>
-
-Nuget (dotnet tool): <https://www.nuget.org/packages/BingImageDownload>
-
-### What3Passwords
-
-A random password generator using the [What3Words](https://what3words.com) API.
-
-The tool picks a random location to get 3 random words and uses this to create a randomised password.
-
-GitHub: <https://github.com/BlythMeister/What3Passwords>
-
-Website: <https://what-three-passwords.blyth.me.uk>
-
-Nuget (dotnet tool): <https://www.nuget.org/packages/What3Passwords>
-
-### Timelapse
-
-A bash script to take webcam image every minute and C# app to timestamp images and compile into a video at 30FPS
-
-GitHub: <https://github.com/BlythMeister/Timelapse>
-
-### WebhookRelay.net
-
-This is a Azure function which can be made public and an app which runs behind your firewall to relay external webhooks internally.
-
-It works by publishing the contents of the webhook on the Azure service bus.
-
-The internal app is configured where to route webhooks to.
-
-GitHub: <https://github.com/BlythMeister/WebhookRelay.net>
-
-### Secret Santa Helper
-
-A small Christmas themed WPF app in which you enter participants in a Secret Santa.
-
-Add in the contents of an email and an SMTP relay you have access to (PaperCut should work).
-
-Then hit to go button. The app randomly puts participants together for gift buying.
-
-GitHub: <https://github.com/BlythMeister/SecretSantaHelper>
-
-Download: Available in the "Releases" section
-
-### Advent Of Code
-
-My solutions to the [advent of code](http://adventofcode.com/) puzzles
-
-GitHub: <https://github.com/BlythMeister/AdventOfCode>
+| Project | Description | Stack & Links |
+| :--- | :--- | :--- |
+| **[Timelapse](https://github.com/BlythMeister/Timelapse)** | Takes a webcam photo every minute via Bash, then timestamps and compiles frames into a 30 FPS video with C#. | `Bash` · `C#` · [GitHub](https://github.com/BlythMeister/Timelapse) |
+| **[Secret Santa Helper](https://github.com/BlythMeister/SecretSantaHelper)** | Festive WPF app that randomizes gift pairings and quietly sends assignments via an SMTP relay. | `WPF` · `C#` · [GitHub](https://github.com/BlythMeister/SecretSantaHelper) |
+| **[Advent of Code](https://github.com/BlythMeister/AdventOfCode)** | Solutions and problem benchmarks for the annual Advent of Code challenges. | `C#` · [GitHub](https://github.com/BlythMeister/AdventOfCode) |
