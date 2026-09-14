@@ -72,6 +72,16 @@ Nuget: <https://www.nuget.org/packages/google-diff-match-patch>
 
 ### Fitbit Overview Watch Face
 
+A collection of custom watchfaces for Amazfit devices.
+
+GitHub: <https://github.com/BlythMeister/Amazfit-Watchfaces>
+
+Website: <https://amazfit-watchfaces.blyth.me.uk>
+
+Download: Use the Zepp app or sideload using <https://amazfitwatchfaces.com>
+
+### Fitbit Overview Watch Face
+
 A stats heavy watch face for Fitbit devices.
 
 GitHub: <https://github.com/BlythMeister/Fitbit-Overview-Face>
