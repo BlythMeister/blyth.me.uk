@@ -185,7 +185,7 @@ a.far:hover {
 }
 
 .fab.fa-twitter {
-    background: #1DA1F2;
+    background: #000000;
     color: #FFFFFF;
 }
 
@@ -242,6 +242,16 @@ a.far:hover {
 .fab.fa-ebay {
     background: linear-gradient(90deg, #e53238 12.50%, #0064d2 12.50%, #0064d2 25%, #f5af02 25%, #f5af02 37.50%, #86b817 37.50%, #86b817 50%, #e53238 50%, #e53238 62.50%, #0064d2 62.50%, #0064d2 75%, #f5af02 75%, #f5af02 87.50%, #86b817 87.50%, #86b817 100%);
     color: #000000;
+}
+
+.icon-x {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.icon-simkl {
+    background: #00B4FF;
+    color: #FFFFFF;
 }
 
 @media (max-width:990px) {
