@@ -136,7 +136,8 @@ body {
     border-top: 1px solid grey;
 }
 
-.fab {
+.fab,
+.fa-brands {
     padding-top: 6px;
     font-size: 18px;
     width: 30px;
@@ -147,7 +148,8 @@ body {
     vertical-align: middle;
 }
 
-.far {
+.far,
+.fa-regular {
     padding-top: 6px;
     font-size: 18px;
     width: 30px;
@@ -158,7 +160,8 @@ body {
     vertical-align: middle;
 }
 
-.fas {
+.fas,
+.fa-solid {
     padding-top: 6px;
     font-size: 18px;
     width: 30px;
@@ -169,79 +172,104 @@ body {
     vertical-align: middle;
 }
 
-a.fab:hover {
+a.fab:hover,
+a.fa-brands:hover {
     opacity: 0.7;
     text-decoration: none;
 }
 
-a.fas:hover {
+a.fas:hover,
+a.fa-solid:hover {
     opacity: 0.7;
     text-decoration: none;
 }
 
-a.far:hover {
+a.far:hover,
+a.fa-regular:hover {
     opacity: 0.7;
     text-decoration: none;
 }
 
-.fab.fa-twitter {
-    background: #1DA1F2;
+.fab.fa-twitter,
+.fa-brands.fa-x-twitter {
+    background: #000000;
     color: #FFFFFF;
 }
 
-.fab.fa-linkedin {
+.fab.fa-linkedin,
+.fa-brands.fa-linkedin {
     background: #007BB5;
     color: #FFFFFF;
 }
 
-.fab.fa-github {
+.fab.fa-github,
+.fa-brands.fa-github {
     background: #000000;
     color: #FFFFFF;
 }
 
-.fab.fa-spotify {
+.fab.fa-spotify,
+.fa-brands.fa-spotify {
     background: #000000;
     color: #1ED760;
 }
 
-.fas.fa-rss {
+.fas.fa-rss,
+.fa-solid.fa-rss {
     background: #FF6600;
     color: #FFFFFF;
 }
 
-.fab.fa-youtube {
+.fab.fa-youtube,
+.fa-brands.fa-youtube {
     background: #FF0000;
     color: #FFFFFF;
 }
 
-.fab.fa-facebook-f {
+.fab.fa-facebook-f,
+.fa-brands.fa-facebook-f {
     background: #1778F2;
     color: #FFFFFF;
 }
 
-.far.fa-envelope {
+.far.fa-envelope,
+.fa-regular.fa-envelope {
     background: #000000;
     color: #FFFFFF;
 }
 
-.fab.fa-whatsapp {
+.fab.fa-whatsapp,
+.fa-brands.fa-whatsapp {
     background: #25D366;
     color: #FFFFFF;
 }
 
-.fab.fa-amazon {
+.fab.fa-amazon,
+.fa-brands.fa-amazon {
     background: #131921;
     color: #FFFFFF;
 }
 
-.fab.fa-goodreads-g {
+.fab.fa-goodreads-g,
+.fa-brands.fa-goodreads-g {
     background: #F4F1EA;
     color: #372213;
 }
 
-.fab.fa-ebay {
+.fab.fa-ebay,
+.fa-brands.fa-ebay {
     background: linear-gradient(90deg, #e53238 12.50%, #0064d2 12.50%, #0064d2 25%, #f5af02 25%, #f5af02 37.50%, #86b817 37.50%, #86b817 50%, #e53238 50%, #e53238 62.50%, #0064d2 62.50%, #0064d2 75%, #f5af02 75%, #f5af02 87.50%, #86b817 87.50%, #86b817 100%);
     color: #000000;
+}
+
+.icon-x {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.icon-simkl {
+    background: #00B4FF;
+    color: #FFFFFF;
 }
 
 @media (max-width:990px) {
