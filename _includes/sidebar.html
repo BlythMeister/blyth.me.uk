@@ -9,26 +9,26 @@
         </p>
     </div>
     <div class="icons">
-        <a target="_blank" href="mailto:chris@blyth.me.uk" class="far fa-envelope"></a>
+        <a target="_blank" href="mailto:chris@blyth.me.uk" class="fa-regular fa-envelope"></a>
         <a target="_blank" href="https://x.com/BlythMeister" class="fa-brands fa-x-twitter icon-x" title="X"></a>
-        <a target="_blank" href="https://www.linkedin.com/in/chris-blyth/" class="fab fa-linkedin"></a>        
-        <a target="_blank" href="https://www.facebook.com/blythmeister/" class="fab fa-facebook-f"></a>
-        <a target="_blank" href="https://github.com/BlythMeister" class="fab fa-github"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/chris-blyth/" class="fa-brands fa-linkedin"></a>        
+        <a target="_blank" href="https://www.facebook.com/blythmeister/" class="fa-brands fa-facebook-f"></a>
+        <a target="_blank" href="https://github.com/BlythMeister" class="fa-brands fa-github"></a>
     </div>
     <div class="icons">
-        <a target="_blank" href="https://www.ebay.co.uk/usr/blyth_meister" class="fab fa-ebay"></a>
-        <a target="_blank" href="https://www.amazon.co.uk/gp/profile/amzn1.account.AFHXXI3AAWF42IIBKLD3VYLFOT7A" class="fab fa-amazon"></a>
-        <a target="_blank" href="https://www.goodreads.com/user/show/4921874-chris-blyth" class="fab fa-goodreads-g"></a>
+        <a target="_blank" href="https://www.ebay.co.uk/usr/blyth_meister" class="fa-brands fa-ebay"></a>
+        <a target="_blank" href="https://www.amazon.co.uk/gp/profile/amzn1.account.AFHXXI3AAWF42IIBKLD3VYLFOT7A" class="fa-brands fa-amazon"></a>
+        <a target="_blank" href="https://www.goodreads.com/user/show/4921874-chris-blyth" class="fa-brands fa-goodreads-g"></a>
         <a target="_blank" href="https://simkl.com/7934617/" class="fa-solid fa-tv icon-simkl" title="Simkl"></a>
-        <a target="_blank" href="https://open.spotify.com/user/BlythMeister" class="fab fa-spotify"></a>
-        <a target="_blank" href="https://www.youtube.com/channel/UC75NXNugjDXbboQcsc7y1tg" class="fab fa-youtube"></a>
+        <a target="_blank" href="https://open.spotify.com/user/BlythMeister" class="fa-brands fa-spotify"></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UC75NXNugjDXbboQcsc7y1tg" class="fa-brands fa-youtube"></a>
     </div>
     <div>
     	<a target="_blank" href="{{ site.url }}/r/mailing-list">Join my mailing list</a>
     </div>
 </div>
 <div class="bottomItem">
-    <h4>Recent Posts <a href="{{ site.url }}/rss" class="fas fa-rss"></a></h4>
+    <h4>Recent Posts <a href="{{ site.url }}/rss" class="fa-solid fa-rss"></a></h4>
     {% assign publishedPosts = site.posts | where: 'show', 'true' %}
     {% for post in publishedPosts  limit:5 %}
     <div class="media {% if forloop.last == false %}media-underline{% endif %}">
@@ -36,7 +36,7 @@
             <a href="{{ post.url }}">
                 <h5 class="media-heading">{{ post.title }}</h5>
             </a>
-            <p><i class="far fa-calendar">&nbsp;</i>{{ post.date | date: "%d %B %Y" }}</p>
+            <p><i class="fa-regular fa-calendar">&nbsp;</i>{{ post.date | date: "%d %B %Y" }}</p>
             {{ post.excerpt }}
         </div>
     </div>
